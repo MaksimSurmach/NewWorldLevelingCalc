@@ -1,15 +1,17 @@
-import React from 'react';
-import { ITradingSkill } from '../../model';
 import { useParams } from "react-router-dom";
 
+import { Container as di } from 'typedi';
+import { MoqDataService } from '../../data/moq-data-service';
+
 export const TradingSkillComponent = () => {
+
+  const data = di.get(MoqDataService);
+
 	const param = useParams<{id: string}>()
-    
-    // location.pathname is '/users/new'
+
     return (
       <div className="TradingSkill">
-        Trading Skill: {param.id}
+        Currently Selected: {data.getById(param.id)?.Name}
       </div>
     );
 }
-

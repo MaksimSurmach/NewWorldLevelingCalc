@@ -5,11 +5,18 @@ export class MoqDataService{
 
     listTradingSkills(){
         return [{
-            Name: "Cooking", 
-            Receipes: []
+            Id: "cooking",
+            Name: "Cooking"
         }, {
-            Name: "Arcana", 
-            Receipes: []
+            Id: "arcana",
+            Name: "Arcana",
+        }, {
+            Id: "smelting",
+            Name: "Smelting",
         }];
+    }
+
+    getById(id: string) {
+        return this.listTradingSkills().find(x => x.Id === id);
     }
 }

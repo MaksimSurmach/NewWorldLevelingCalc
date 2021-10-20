@@ -4,10 +4,6 @@ import { Container as di } from 'typedi';
 import { MoqDataService } from '../../data/moq-data-service';
 import { LinkContainer } from 'react-router-bootstrap';
 
-function toPath(i: string) {
-    return '/skills/' + i.replace(' ', '').toLocaleLowerCase();
-}
-
 class Header extends React.Component {
 
     MoqDataService = di.get(MoqDataService);
@@ -26,7 +22,7 @@ class Header extends React.Component {
                         </LinkContainer>
                         <Nav className="me-auto">
                             <NavDropdown title="Trading Skills" id="basic-nav-dropdown">
-                                {this.MoqDataService.listTradingSkills().map(x => <LinkContainer to={toPath(x.Name)}><NavDropdown.Item key={x.Name}>{x.Name}</NavDropdown.Item></LinkContainer>)}
+                                {this.MoqDataService.listTradingSkills().map(x => <LinkContainer to={'/skills/'+ x.Id}><NavDropdown.Item key={x.Id}>{x.Name}</NavDropdown.Item></LinkContainer>)}
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

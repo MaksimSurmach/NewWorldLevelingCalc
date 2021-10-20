@@ -1,6 +1,7 @@
 import { IRecipe } from './items';
 
 export interface ITradingSkill {
+    Id: string
     Name: string
 }
 
