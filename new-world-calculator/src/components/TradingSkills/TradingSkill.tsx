@@ -1,21 +1,15 @@
 import React from 'react';
 import { ITradingSkill } from '../../model';
+import { useParams } from "react-router-dom";
 
-class TradingSkill extends React.Component<{TradingSkill: ITradingSkill}, {TradingSkill: ITradingSkill}> {
-
-  constructor(props: {TradingSkill: ITradingSkill}) {
-    super(props);
-    this.state = props;
-
-  }
-
-  render() {
+export const TradingSkillComponent = () => {
+	const param = useParams<{id: string}>()
+    
+    // location.pathname is '/users/new'
     return (
       <div className="TradingSkill">
-        <div>{this.state.TradingSkill.Name}</div>
+        Trading Skill: {param.id}
       </div>
     );
-  }
 }
 
-export default TradingSkill;
