@@ -1,5 +1,6 @@
 import React from 'react';
 import { ITradingSkill } from '../../model';
+import Header from '../Layout/Header';
 
 class TradingSkill extends React.Component<{TradingSkill: ITradingSkill}, {TradingSkill: ITradingSkill}> {
 
