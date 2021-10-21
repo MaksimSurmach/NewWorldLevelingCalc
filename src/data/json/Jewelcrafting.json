@@ -1,1 +1,3242 @@
-[{"Name":"Ash Stain (x10)","Lvlcrafting":0,"Exp":14,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Charcoal","Quantity":10}},{"Resource":{"Name":"Weak Solvent","Quantity":4}}]},{"Name":"Wicker Basket","Lvlcrafting":0,"Exp":61,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Reeds","Quantity":35}},{"Resource":{"Name":"Fibers","Quantity":25}},{"Resource":{"Name":"Weak Solvent","Quantity":1}}]},{"Name":"Cerulean Sheets Bunk Bed","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash Full Bed","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash Dining Chair","Lvlcrafting":0,"Exp":156,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":15}},{"Resource":{"Name":"Iron Ingot","Quantity":10}},{"Resource":{"Name":"Ash Stain","Quantity":1}}]},{"Name":"Ash Bar Stool","Lvlcrafting":0,"Exp":156,"MinLvl":0,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":15}},{"Resource":{"Name":"Iron Ingot","Quantity":10}},{"Resource":{"Name":"Ash Stain","Quantity":1}}]},{"Name":"Old Placesetting","Lvlcrafting":0,"Exp":96,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":10}},{"Resource":{"Name":"Iron Ingot","Quantity":5}},{"Resource":{"Name":"Weak Solvent","Quantity":1}}]},{"Name":"Rusty Iron Lantern","Lvlcrafting":0,"Exp":150,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Oil","Quantity":5}},{"Resource":{"Name":"Fibers","Quantity":5}}]},{"Name":"Warm Iron Chandelier - Bright","Lvlcrafting":0,"Exp":150,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Oil","Quantity":5}},{"Resource":{"Name":"Fibers","Quantity":3}}]},{"Name":"Warm Iron Lantern - Bright","Lvlcrafting":0,"Exp":150,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Oil","Quantity":5}},{"Resource":{"Name":"Fibers","Quantity":5}}]},{"Name":"Warm Iron Sconce - Bright","Lvlcrafting":0,"Exp":150,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":15}},{"Resource":{"Name":"Iron Ingot","Quantity":5}},{"Resource":{"Name":"Oil","Quantity":5}}]},{"Name":"Round Sunny Rug","Lvlcrafting":0,"Exp":150,"MinLvl":0,"MaxLvl":85,"Ingredients":[{"Resource":{"Name":"Linen","Quantity":15}},{"Resource":{"Name":"Crossweave","Quantity":5}},{"Resource":{"Name":"Fibers","Quantity":5}}]},{"Name":"Ash Armoire","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Open Rickety Bookcase","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash Small Bookcase","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash Large Bookcase","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash Chest of Drawers","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash Cabinet","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Cerulean Drape","Lvlcrafting":0,"Exp":138,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Linen","Quantity":15}},{"Resource":{"Name":"Iron Ingot","Quantity":5}},{"Resource":{"Name":"Blue Pigment","Quantity":3}}]},{"Name":"Cerulean Valance","Lvlcrafting":0,"Exp":138,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Linen","Quantity":15}},{"Resource":{"Name":"Iron Ingot","Quantity":5}},{"Resource":{"Name":"Blue Pigment","Quantity":3}}]},{"Name":"Cerulean Curtains","Lvlcrafting":0,"Exp":138,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Linen","Quantity":15}},{"Resource":{"Name":"Iron Ingot","Quantity":5}},{"Resource":{"Name":"Blue Pigment","Quantity":3}}]},{"Name":"Ash Dresser","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash Wall Shelf","Lvlcrafting":0,"Exp":126,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":15}},{"Resource":{"Name":"Iron Ingot","Quantity":5}},{"Resource":{"Name":"Ash Stain","Quantity":1}}]},{"Name":"Iron Settler's Stove","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash End Table","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash Small Table","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Ash Desk","Lvlcrafting":0,"Exp":282,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":2}}]},{"Name":"Rickety Wooden Wall Shelf (Schematic)","Lvlcrafting":0,"Exp":156,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":20}},{"Resource":{"Name":"Iron Ingot","Quantity":5}},{"Resource":{"Name":"Ash Stain","Quantity":1}}]},{"Name":"Old Log Stool (Schematic)","Lvlcrafting":0,"Exp":156,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":15}},{"Resource":{"Name":"Iron Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":1}}]},{"Name":"Old Straw Cot (Schematic)","Lvlcrafting":0,"Exp":24,"MinLvl":0,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Linen","Quantity":1}},{"Resource":{"Name":"Feathers","Quantity":1}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Weak Incense","Lvlcrafting":20,"Exp":24,"MinLvl":20,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":1}},{"Resource":{"Name":"Hyssop","Quantity":1}},{"Resource":{"Name":"Cinnamon","Quantity":1}},{"Resource":{"Name":"Charcoal","Quantity":1}}]},{"Name":"Hewn Log Storage Chest","Lvlcrafting":35,"Exp":282,"MinLvl":35,"MaxLvl":50,"Ingredients":[{"Resource":{"Name":"Timber","Quantity":30}},{"Resource":{"Name":"Iron Ingot","Quantity":15}},{"Resource":{"Name":"Ash Stain","Quantity":1}},{"Resource":{"Name":"Minor Rune of Holding","Quantity":1}}]},{"Name":"Maple Stain (x10)","Lvlcrafting":50,"Exp":84,"MinLvl":50,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Weak Solvent","Quantity":10}},{"Resource":{"Name":"Oil","Quantity":4}}]},{"Name":"Skull Candleholder (Requires Artifact)","Lvlcrafting":50,"Exp":384,"MinLvl":50,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Beeswax","Quantity":10}},{"Resource":{"Name":"Steel Ingot","Quantity":5}},{"Resource":{"Name":"Ancient Skull","Quantity":1}}]},{"Name":"Target Dummy (Requires Artifact)","Lvlcrafting":50,"Exp":1104,"MinLvl":50,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Fibers","Quantity":10}},{"Resource":{"Name":"Dummy Frame","Quantity":1}}]},{"Name":"Rustic Stone Stove (Requires Artifact)","Lvlcrafting":50,"Exp":1464,"MinLvl":50,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Stone Brick","Quantity":55}},{"Resource":{"Name":"Fire Essence","Quantity":5}},{"Resource":{"Name":"Ember Stone","Quantity":1}}]},{"Name":"Ash Casual Chair","Lvlcrafting":50,"Exp":624,"MinLvl":50,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":15}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":1}}]},{"Name":"Low Apothecary Cabinet (Schematic)","Lvlcrafting":50,"Exp":624,"MinLvl":50,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":20}},{"Resource":{"Name":"Steel Ingot","Quantity":5}},{"Resource":{"Name":"Maple Stain","Quantity":1}}]},{"Name":"Old Wooden Bunk Bed (Schematic)","Lvlcrafting":51,"Exp":1128,"MinLvl":51,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":40}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":5}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Old Wooden Full Bed (Schematic)","Lvlcrafting":52,"Exp":96,"MinLvl":52,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":1}},{"Resource":{"Name":"Steel Ingot","Quantity":1}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Stone Cairn (Schematic)","Lvlcrafting":53,"Exp":96,"MinLvl":53,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Stone Brick","Quantity":1}},{"Resource":{"Name":"Steel Ingot","Quantity":1}},{"Resource":{"Name":"Earth Mote","Quantity":2}}]},{"Name":"Tree Stump Table (Schematic)","Lvlcrafting":54,"Exp":1128,"MinLvl":54,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Tree Stump Side Table (Schematic)","Lvlcrafting":55,"Exp":1128,"MinLvl":55,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Weak Solvent","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Cherry Sheets Bunk Bed (Schematic)","Lvlcrafting":56,"Exp":1128,"MinLvl":56,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Iron Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Full Bed (Schematic)","Lvlcrafting":57,"Exp":1128,"MinLvl":57,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Dining Chair (Schematic)","Lvlcrafting":58,"Exp":624,"MinLvl":58,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":15}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":1}}]},{"Name":"Maple Casual Chair (Schematic)","Lvlcrafting":59,"Exp":624,"MinLvl":59,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":15}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":1}}]},{"Name":"Maple Bar Stool (Schematic)","Lvlcrafting":60,"Exp":624,"MinLvl":60,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":15}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":1}}]},{"Name":"Maple Armoire (Schematic)","Lvlcrafting":61,"Exp":1128,"MinLvl":61,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Small Bookcase (Schematic)","Lvlcrafting":62,"Exp":1128,"MinLvl":62,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Large Bookcase (Schematic)","Lvlcrafting":63,"Exp":1128,"MinLvl":63,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Chest of Drawers (Schematic)","Lvlcrafting":64,"Exp":1128,"MinLvl":64,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Cabinet (Schematic)","Lvlcrafting":65,"Exp":1128,"MinLvl":65,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Dresser (Schematic)","Lvlcrafting":66,"Exp":1128,"MinLvl":66,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Wall Shelf (Schematic)","Lvlcrafting":67,"Exp":1128,"MinLvl":67,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Curved Grassy Rug","Lvlcrafting":67,"Exp":1560,"MinLvl":67,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Sateen","Quantity":25}},{"Resource":{"Name":"Rugged Leather","Quantity":25}},{"Resource":{"Name":"Silk Threads","Quantity":15}}]},{"Name":"Colorful Wind Chimes","Lvlcrafting":68,"Exp":120,"MinLvl":68,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":10}},{"Resource":{"Name":"Iron Ingot","Quantity":5}},{"Resource":{"Name":"Fibers","Quantity":5}}]},{"Name":"Steel Settler's Stove (Schematic)","Lvlcrafting":68,"Exp":1128,"MinLvl":68,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":35}},{"Resource":{"Name":"Steel Ingot","Quantity":10}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple End Table (Schematic)","Lvlcrafting":69,"Exp":1128,"MinLvl":69,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":30}},{"Resource":{"Name":"Steel Ingot","Quantity":15}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Common Incense","Lvlcrafting":70,"Exp":96,"MinLvl":70,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":1}},{"Resource":{"Name":"Hyssop","Quantity":1}},{"Resource":{"Name":"Cinnamon","Quantity":1}},{"Resource":{"Name":"Charcoal","Quantity":1}}]},{"Name":"Maple Desk (Schematic)","Lvlcrafting":70,"Exp":1128,"MinLvl":70,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":30}},{"Resource":{"Name":"Steel Ingot","Quantity":15}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Small Table (Schematic)","Lvlcrafting":71,"Exp":1128,"MinLvl":71,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":30}},{"Resource":{"Name":"Steel Ingot","Quantity":15}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Maple Large Table (Schematic)","Lvlcrafting":72,"Exp":1128,"MinLvl":72,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":30}},{"Resource":{"Name":"Steel Ingot","Quantity":15}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Minor Arcana Crafting Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Earth Mote","Quantity":25}}]},{"Name":"Minor Weaponsmithing Crafting Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Fire Mote","Quantity":25}}]},{"Name":"Minor Cooking Crafting Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Water Mote","Quantity":25}}]},{"Name":"Minor Ancients Combat Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Soul Mote","Quantity":25}}]},{"Name":"Minor Angry Earth Combat Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Earth Mote","Quantity":25}}]},{"Name":"Minor Wildlife Combat Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Fire Mote","Quantity":25}}]},{"Name":"Minor Corrupted Combat Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Life Mote","Quantity":25}}]},{"Name":"Minor Lost Combat Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Death Mote","Quantity":25}}]},{"Name":"Minor Engineering Crafting Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Air Mote","Quantity":25}}]},{"Name":"Minor Fishing Gathering Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Water Mote","Quantity":25}}]},{"Name":"Minor Harvesting Gathering Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Water Mote","Quantity":25}}]},{"Name":"Minor Logging Gathering Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Air Mote","Quantity":25}}]},{"Name":"Minor Mining Gathering Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Earth Mote","Quantity":25}}]},{"Name":"Minor Armoring Crafting Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Fire Mote","Quantity":25}}]},{"Name":"Minor Skinning Gathering Trophy","Lvlcrafting":75,"Exp":1704,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Air Mote","Quantity":25}}]},{"Name":"Ash Large Table","Lvlcrafting":75,"Exp":1128,"MinLvl":75,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":30}},{"Resource":{"Name":"Steel Ingot","Quantity":15}},{"Resource":{"Name":"Maple Stain","Quantity":2}}]},{"Name":"Iron Storage Chest","Lvlcrafting":85,"Exp":1128,"MinLvl":85,"MaxLvl":100,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":30}},{"Resource":{"Name":"Steel Ingot","Quantity":15}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Major Rune of Holding","Quantity":1}}]},{"Name":"Oak Stain (x10)","Lvlcrafting":50,"Exp":336,"MinLvl":100,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Potent Solvent","Quantity":10}},{"Resource":{"Name":"Oil","Quantity":4}}]},{"Name":"Bear Pelt Rug","Lvlcrafting":100,"Exp":3680,"MinLvl":100,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Layered Leather","Quantity":35}},{"Resource":{"Name":"Feathers","Quantity":10}},{"Resource":{"Name":"Pristine Bear Pelt","Quantity":1}}]},{"Name":"Minor Loot Luck Trophy (Requires Artifact)","Lvlcrafting":100,"Exp":1128,"MinLvl":100,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Lumber","Quantity":25}},{"Resource":{"Name":"Steel Ingot","Quantity":20}},{"Resource":{"Name":"Maple Stain","Quantity":1}},{"Resource":{"Name":"Rabbit's Foot","Quantity":1}}]},{"Name":"Straw Pet Bed (Requires Artifact)","Lvlcrafting":100,"Exp":4416,"MinLvl":100,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":5}},{"Resource":{"Name":"Layered Leather","Quantity":40}},{"Resource":{"Name":"Fluffy Stuffing","Quantity":1}}]},{"Name":"Oak Wine Cask (Schematic)","Lvlcrafting":100,"Exp":4512,"MinLvl":100,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Rickety Wooden Chair (Schematic)","Lvlcrafting":101,"Exp":2496,"MinLvl":101,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Powder Horn (Schematic)","Lvlcrafting":102,"Exp":2016,"MinLvl":102,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Animal Horn","Quantity":1}},{"Resource":{"Name":"Gunpowder","Quantity":15}},{"Resource":{"Name":"Beeswax","Quantity":5}}]},{"Name":"Small Rustic Cabinet (Schematic)","Lvlcrafting":103,"Exp":4512,"MinLvl":103,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Old Wood Dining Table (Schematic)","Lvlcrafting":104,"Exp":4512,"MinLvl":104,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Grassy Sheets Bunk Bed (Schematic)","Lvlcrafting":106,"Exp":4512,"MinLvl":106,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Oak Full Bed (Schematic)","Lvlcrafting":107,"Exp":4512,"MinLvl":107,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Oak Dining Chair (Schematic)","Lvlcrafting":108,"Exp":2496,"MinLvl":108,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Oak Casual Chair (Schematic)","Lvlcrafting":109,"Exp":2496,"MinLvl":109,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Oak Bar Stool (Schematic)","Lvlcrafting":110,"Exp":2496,"MinLvl":110,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Oak Armoire (Schematic)","Lvlcrafting":111,"Exp":4512,"MinLvl":111,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Oak Small Bookcase (Schematic)","Lvlcrafting":112,"Exp":4512,"MinLvl":112,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Oak Large Bookcase (Schematic)","Lvlcrafting":113,"Exp":4512,"MinLvl":113,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Oak Chest of Drawers (Schematic)","Lvlcrafting":114,"Exp":4512,"MinLvl":114,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Oak Cabinet (Schematic)","Lvlcrafting":115,"Exp":4512,"MinLvl":115,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Fireplace Poker Set (Schematic)","Lvlcrafting":116,"Exp":288,"MinLvl":116,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Old Books Row Short","Quantity":1}},{"Resource":{"Name":"Old Books Stack","Quantity":1}},{"Resource":{"Name":"Old Books Row Long","Quantity":1}}]},{"Name":"Oval Cerulean Rug","Lvlcrafting":117,"Exp":6240,"MinLvl":117,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Silk","Quantity":25}},{"Resource":{"Name":"Layered Leather","Quantity":25}},{"Resource":{"Name":"Wirefiber","Quantity":15}}]},{"Name":"Oak Dresser (Schematic)","Lvlcrafting":117,"Exp":4512,"MinLvl":117,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Robust Wind Chimes","Lvlcrafting":118,"Exp":1920,"MinLvl":118,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":10}},{"Resource":{"Name":"Steel Ingot","Quantity":5}},{"Resource":{"Name":"Fibers","Quantity":5}}]},{"Name":"Oak Wall Shelf (Schematic)","Lvlcrafting":118,"Exp":4512,"MinLvl":118,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Starmetal Settler's Stove (Schematic)","Lvlcrafting":119,"Exp":4512,"MinLvl":119,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":35}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Oak End Table (Schematic)","Lvlcrafting":120,"Exp":4512,"MinLvl":120,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Strong Incense","Lvlcrafting":120,"Exp":384,"MinLvl":120,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":1}},{"Resource":{"Name":"Hyssop","Quantity":1}},{"Resource":{"Name":"Cinnamon","Quantity":1}},{"Resource":{"Name":"Charcoal","Quantity":1}}]},{"Name":"Oak Desk (Schematic)","Lvlcrafting":121,"Exp":4512,"MinLvl":121,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Oak Small Table (Schematic)","Lvlcrafting":122,"Exp":4512,"MinLvl":122,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Oak Large Table (Schematic)","Lvlcrafting":123,"Exp":4512,"MinLvl":123,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Maritime Velvet Captain's Bed (Schematic)","Lvlcrafting":124,"Exp":4512,"MinLvl":124,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Seafoam Velvet Captain's Bed (Schematic)","Lvlcrafting":125,"Exp":4512,"MinLvl":125,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Maritime Velvet Armchair (Schematic)","Lvlcrafting":126,"Exp":2496,"MinLvl":126,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Seafoam Velvet Armchair (Schematic)","Lvlcrafting":127,"Exp":2496,"MinLvl":127,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Maritime Velvet Dining Chair (Schematic)","Lvlcrafting":128,"Exp":2496,"MinLvl":128,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Seafoam Velvet Dining Chair (Schematic)","Lvlcrafting":129,"Exp":2496,"MinLvl":129,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Maritime Velvet Stool (Schematic)","Lvlcrafting":130,"Exp":2496,"MinLvl":130,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Seafoam Velvet Stool (Schematic)","Lvlcrafting":131,"Exp":2496,"MinLvl":131,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Hardworking Scrolled Armoire (Schematic)","Lvlcrafting":132,"Exp":4512,"MinLvl":132,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Salt-stripped Scrolled Armoire (Schematic)","Lvlcrafting":133,"Exp":4512,"MinLvl":133,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Hardworking Half-Barrel Table (Schematic)","Lvlcrafting":134,"Exp":4512,"MinLvl":134,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Salt-stripped Half-Barrel Table (Schematic)","Lvlcrafting":135,"Exp":4512,"MinLvl":135,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Hardworking Low Bookcase (Schematic)","Lvlcrafting":136,"Exp":4512,"MinLvl":136,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Salt-stripped Low Bookcase (Schematic)","Lvlcrafting":137,"Exp":4512,"MinLvl":137,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Hardworking Tall Bookcase (Schematic)","Lvlcrafting":138,"Exp":4512,"MinLvl":138,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Salt-stripped Small Table (Schematic)","Lvlcrafting":139,"Exp":4512,"MinLvl":139,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Salt-stripped Tall Bookcase (Schematic)","Lvlcrafting":139,"Exp":4512,"MinLvl":139,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Hardworking Small Table (Schematic)","Lvlcrafting":140,"Exp":4512,"MinLvl":140,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Hardworking Short Dresser (Schematic)","Lvlcrafting":140,"Exp":4512,"MinLvl":140,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Salt-stripped Dining Table (Schematic)","Lvlcrafting":141,"Exp":4512,"MinLvl":141,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Salt-stripped Short Dresser (Schematic)","Lvlcrafting":141,"Exp":4512,"MinLvl":141,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Hardworking Dining Table (Schematic)","Lvlcrafting":142,"Exp":4512,"MinLvl":142,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Hardworking Tall Dresser (Schematic)","Lvlcrafting":142,"Exp":4512,"MinLvl":142,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Salt-stripped Vanity Table (Schematic)","Lvlcrafting":143,"Exp":4512,"MinLvl":143,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Salt-stripped Tall Dresser (Schematic)","Lvlcrafting":143,"Exp":4512,"MinLvl":143,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Hardworking Vanity Table (Schematic)","Lvlcrafting":144,"Exp":4512,"MinLvl":144,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Maritime Posh Valance (Schematic)","Lvlcrafting":144,"Exp":2208,"MinLvl":144,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Silk","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":5}},{"Resource":{"Name":"Green Pigment","Quantity":3}}]},{"Name":"Salt-stripped Scrolled Desk (Schematic)","Lvlcrafting":145,"Exp":4512,"MinLvl":145,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Maritime Posh Curtains (Schematic)","Lvlcrafting":145,"Exp":2208,"MinLvl":145,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Silk","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":5}},{"Resource":{"Name":"Green Pigment","Quantity":3}}]},{"Name":"Hope Storage Chest (Schematic)","Lvlcrafting":145,"Exp":4512,"MinLvl":145,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Greater Rune of Holding","Quantity":1}}]},{"Name":"Hardworking Scrolled Desk (Schematic)","Lvlcrafting":146,"Exp":4512,"MinLvl":146,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":30}},{"Resource":{"Name":"Starmetal Ingot","Quantity":15}},{"Resource":{"Name":"Oak Stain","Quantity":2}}]},{"Name":"Maritime Ragged Curtains (Schematic)","Lvlcrafting":146,"Exp":2208,"MinLvl":146,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Silk","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":5}},{"Resource":{"Name":"Green Pigment","Quantity":3}}]},{"Name":"Curved Maritime Rug (Schematic)","Lvlcrafting":147,"Exp":2400,"MinLvl":147,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Silk","Quantity":15}},{"Resource":{"Name":"Silkweave","Quantity":5}},{"Resource":{"Name":"Silk Threads","Quantity":5}}]},{"Name":"Hardworking Galley Shelf (Schematic)","Lvlcrafting":147,"Exp":2496,"MinLvl":147,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Ornate Copper Stove (Schematic)","Lvlcrafting":148,"Exp":2496,"MinLvl":148,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Salt-stripped Galley Shelf (Schematic)","Lvlcrafting":148,"Exp":2496,"MinLvl":148,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Ornate Cast-Iron Stove (Schematic)","Lvlcrafting":149,"Exp":2496,"MinLvl":149,"MaxLvl":150,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":15}},{"Resource":{"Name":"Starmetal Ingot","Quantity":10}},{"Resource":{"Name":"Oak Stain","Quantity":1}}]},{"Name":"Basic Fishing Gathering Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Taxidermied Blue-blooded Barb","Quantity":1}},{"Resource":{"Name":"Minor Fishing Gathering Trophy","Quantity":1}}]},{"Name":"Basic Skinning Gathering Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Notes on Aeternum Fauna","Quantity":1}},{"Resource":{"Name":"Minor Skinning Gathering Trophy","Quantity":1}}]},{"Name":"Basic Armoring Crafting Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Armorer's Journal","Quantity":1}},{"Resource":{"Name":"Minor Armoring Crafting Trophy","Quantity":1}}]},{"Name":"Basic Mining Gathering Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Surveyor's Tool","Quantity":1}},{"Resource":{"Name":"Minor Mining Gathering Trophy","Quantity":1}}]},{"Name":"Basic Loot Luck Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Stacked Deck","Quantity":1}},{"Resource":{"Name":"Minor Loot Luck Trophy","Quantity":1}}]},{"Name":"Basic Logging Gathering Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Lumberjack's Token","Quantity":1}},{"Resource":{"Name":"Minor Logging Gathering Trophy","Quantity":1}}]},{"Name":"Basic Harvesting Gathering Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Journal of Aeternum Flora","Quantity":1}},{"Resource":{"Name":"Minor Harvesting Gathering Trophy","Quantity":1}}]},{"Name":"Basic Engineering Crafting Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Engineer's Technique Manuals","Quantity":1}},{"Resource":{"Name":"Minor Engineering Crafting Trophy","Quantity":1}}]},{"Name":"Basic Lost Combat Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Ectoplasmic Essence","Quantity":1}},{"Resource":{"Name":"Minor Lost Combat Trophy","Quantity":1}}]},{"Name":"Basic Corrupted Combat Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Corrupted Crest","Quantity":1}},{"Resource":{"Name":"Minor Corrupted Combat Trophy","Quantity":1}}]},{"Name":"Basic Wildlife Combat Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Pristine Wolf Claw","Quantity":1}},{"Resource":{"Name":"Minor Wildlife Combat Trophy","Quantity":1}}]},{"Name":"Basic Angry Earth Combat Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Barkflesh","Quantity":1}},{"Resource":{"Name":"Minor Angry Earth Combat Trophy","Quantity":1}}]},{"Name":"Basic Ancients Combat Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Ancient Femur","Quantity":1}},{"Resource":{"Name":"Minor Ancients Combat Trophy","Quantity":1}}]},{"Name":"Basic Cooking Crafting Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Chef's Secret Techniques","Quantity":1}},{"Resource":{"Name":"Minor Cooking Crafting Trophy","Quantity":1}}]},{"Name":"Basic Weaponsmithing Crafting Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Quartermaster's Notes","Quantity":1}},{"Resource":{"Name":"Minor Weaponsmithing Crafting Trophy","Quantity":1}}]},{"Name":"Basic Arcana Crafting Trophy (Requires Artifact)","Lvlcrafting":150,"Exp":4608,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Wyrdwood Planks","Quantity":25}},{"Resource":{"Name":"Starmetal Ingot","Quantity":20}},{"Resource":{"Name":"Oak Stain","Quantity":1}},{"Resource":{"Name":"Ancient Texts","Quantity":1}},{"Resource":{"Name":"Minor Arcana Crafting Trophy","Quantity":1}}]},{"Name":"Mahogany Stain (x10)","Lvlcrafting":150,"Exp":1344,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Pure Solvent","Quantity":10}},{"Resource":{"Name":"Oil","Quantity":4}}]},{"Name":"Rickety Wooden Stool (Schematic)","Lvlcrafting":150,"Exp":8320,"MinLvl":150,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":15}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":1}}]},{"Name":"Old Desk Cahir (Schematic)","Lvlcrafting":151,"Exp":8320,"MinLvl":151,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":15}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":1}}]},{"Name":"Rusty Iron Candelabra (Schematic)","Lvlcrafting":152,"Exp":6720,"MinLvl":152,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Beeswax","Quantity":5}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":15}},{"Resource":{"Name":"Fire Mote","Quantity":1}}]},{"Name":"Round Bird Cage (Schematic)","Lvlcrafting":153,"Exp":8320,"MinLvl":153,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":20}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":5}},{"Resource":{"Name":"Mahogany Stain","Quantity":1}}]},{"Name":"Rustic Wooden Scrollcase (Schematic)","Lvlcrafting":154,"Exp":15040,"MinLvl":154,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]},{"Name":"Broken Chime Post (Schematic)","Lvlcrafting":155,"Exp":6720,"MinLvl":155,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":15}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":5}},{"Resource":{"Name":"Mahogany Stain","Quantity":1}}]},{"Name":"Sunny Sheets Bunk Bed (Schematic)","Lvlcrafting":156,"Exp":15040,"MinLvl":156,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]},{"Name":"Mahogany Full Bed (Schematic)","Lvlcrafting":157,"Exp":15040,"MinLvl":157,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]},{"Name":"Mahogany Dining Chair (Schematic)","Lvlcrafting":158,"Exp":8320,"MinLvl":158,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":15}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":1}}]},{"Name":"Mahogany Casual Chair (Schematic)","Lvlcrafting":159,"Exp":8320,"MinLvl":159,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":15}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":1}}]},{"Name":"Mahogany Bar Stool (Schematic)","Lvlcrafting":160,"Exp":8320,"MinLvl":160,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":15}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":1}}]},{"Name":"Mahogany Armoire (Schematic)","Lvlcrafting":161,"Exp":15040,"MinLvl":161,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]},{"Name":"Mahogany Small Bookcase (Schematic)","Lvlcrafting":162,"Exp":15040,"MinLvl":162,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]},{"Name":"Mahogany Large Bookcase (Schematic)","Lvlcrafting":163,"Exp":15040,"MinLvl":163,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]},{"Name":"Mahogany Chest of Drawers (Schematic)","Lvlcrafting":164,"Exp":15040,"MinLvl":164,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]},{"Name":"Mahogany Cabinet (Schematic)","Lvlcrafting":165,"Exp":15040,"MinLvl":165,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]},{"Name":"Fireplace Accessories (Schematic)","Lvlcrafting":166,"Exp":5120,"MinLvl":166,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":5}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":5}},{"Resource":{"Name":"Mahogany Stain","Quantity":1}},{"Resource":{"Name":"Infused Leather","Quantity":5}}]},{"Name":"Fireplace Books (Schematic)","Lvlcrafting":167,"Exp":5120,"MinLvl":167,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":5}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":5}},{"Resource":{"Name":"Mahogany Stain","Quantity":1}}]},{"Name":"Cherry Drape (Schematic)","Lvlcrafting":168,"Exp":7360,"MinLvl":168,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Infused Silk","Quantity":15}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":5}},{"Resource":{"Name":"Red Pigment","Quantity":3}}]},{"Name":"Cherry Valance (Schematic)","Lvlcrafting":169,"Exp":7360,"MinLvl":169,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Infused Silk","Quantity":15}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":5}},{"Resource":{"Name":"Red Pigment","Quantity":3}}]},{"Name":"Cherry Curtains (Schematic)","Lvlcrafting":170,"Exp":7360,"MinLvl":170,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Infused Silk","Quantity":15}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":5}},{"Resource":{"Name":"Red Pigment","Quantity":3}}]},{"Name":"Powerful Incense","Lvlcrafting":170,"Exp":1280,"MinLvl":170,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":1}},{"Resource":{"Name":"Hyssop","Quantity":1}},{"Resource":{"Name":"Cinnamon","Quantity":1}},{"Resource":{"Name":"Charcoal","Quantity":1}}]},{"Name":"Mahogany Dresser (Schematic)","Lvlcrafting":171,"Exp":15040,"MinLvl":171,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]},{"Name":"Mahogany Wall Shelf (Schematic)","Lvlcrafting":172,"Exp":15040,"MinLvl":172,"MaxLvl":200,"Ingredients":[{"Resource":{"Name":"Ironwood Planks","Quantity":35}},{"Resource":{"Name":"Orichalcum Ingot","Quantity":10}},{"Resource":{"Name":"Mahogany Stain","Quantity":2}}]}]
+[
+    {
+        "Name": "Stone Block",
+        "Lvlcrafting": 0,
+        "Exp": 36,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Stone",
+                    "Quantity": 4
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Amber",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Amber",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Amethyst",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Amethyst",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Aquamarine",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Aquamarine",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Water Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Carnelian",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Carnelian",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Diamond",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Diamond",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Emerald",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Emerald",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Jasper",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Jasper",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Malachite",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Malachite",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Moonstone",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Moonstone",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Onyx",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Onyx",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Opal",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Opal",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Ruby",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Ruby",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Sapphire",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Sapphire",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Flawed Topaz",
+        "Lvlcrafting": 0,
+        "Exp": 129,
+        "MinLvl": 0,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Topaz",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Mote",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Corrupted Fragment",
+        "Lvlcrafting": 25,
+        "Exp": 45,
+        "MinLvl": 25,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Sliver",
+                    "Quantity": 5
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Eternal Heart",
+        "Lvlcrafting": 25,
+        "Exp": 1350,
+        "MinLvl": 25,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Death Mote",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Mote",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Mote",
+                    "Quantity": 50
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Amrine Tuning Orb",
+        "Lvlcrafting": 25,
+        "Exp": 558,
+        "MinLvl": 25,
+        "MaxLvl": 50,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Sliver",
+                    "Quantity": 10
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Iron Chisel",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Stone Block",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Eternal Heart",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Stone Brick",
+        "Lvlcrafting": 50,
+        "Exp": 180,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Stone Block",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Coarse Sandpaper",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Amber",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Amber",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Amethyst",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Amethyst",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Aquamarine",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Aquamarine",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Water Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Carnelian",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Carnelian",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Diamond",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Diamond",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Emerald",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Emerald",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Jasper",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Jasper",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Malachite",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Malachite",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Moonstone",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Moonstone",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Onyx",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Onyx",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Opal",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Opal",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Ruby",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Ruby",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Sapphire",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Sapphire",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Topaz",
+        "Lvlcrafting": 50,
+        "Exp": 1308,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Flawed Topaz",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Wisp",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Amber",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Amber",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Amethyst",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Amethyst",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Aquamarine",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Aquamarine",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Water Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Carnelian",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Carnelian",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Diamond",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Diamond",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Emerald",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Emerald",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Jasper",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Jasper",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Malachite",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Malachite",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Moonstone",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Moonstone",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Onyx",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Onyx",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Opal",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Opal",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Ruby",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Ruby",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Sapphire",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Sapphire",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Topaz",
+        "Lvlcrafting": 50,
+        "Exp": 1090,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Topaz",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Wisp",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Corrupted Shard",
+        "Lvlcrafting": 50,
+        "Exp": 36,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Fragment",
+                    "Quantity": 4
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Elemental Heart",
+        "Lvlcrafting": 50,
+        "Exp": 1800,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Water Mote",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Mote",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Mote",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Mote",
+                    "Quantity": 50
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Energy Core",
+        "Lvlcrafting": 50,
+        "Exp": 18,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Elemental Heart",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Eternal Heart",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Starstone Tuning Orb",
+        "Lvlcrafting": 50,
+        "Exp": 558,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Fragment",
+                    "Quantity": 10
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Steel Chisel",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Stone Brick",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Elemental Heart",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Siren Tuning Orb",
+        "Lvlcrafting": 50,
+        "Exp": 558,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Shard",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Starmetal Chisel",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Lodestone Brick",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Energy Core",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fancy Shell",
+                    "Quantity": 5
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Monoecious Tuning Orb",
+        "Lvlcrafting": 50,
+        "Exp": 558,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Shard",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Starmetal Chisel",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Lodestone Brick",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Energy Core",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Firefox",
+                    "Quantity": 5
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Protector's Tuning Orb",
+        "Lvlcrafting": 50,
+        "Exp": 558,
+        "MinLvl": 50,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Shard",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Starmetal Chisel",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Lodestone Brick",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Energy Core",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Glowing Swamp Moss",
+                    "Quantity": 5
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Depths Tuning Orb",
+        "Lvlcrafting": 55,
+        "Exp": 558,
+        "MinLvl": 55,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Shard",
+                    "Quantity": 10
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Starmetal Chisel",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Lodestone Brick",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Energy Core",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Dynasty Tuning Orb",
+        "Lvlcrafting": 75,
+        "Exp": 198,
+        "MinLvl": 75,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Crystal",
+                    "Quantity": 10
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Orichalcum Chisel",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Obsidian Voidstone",
+                    "Quantity": 50
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Energy Core",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Corrupted Crystal",
+        "Lvlcrafting": 75,
+        "Exp": 27,
+        "MinLvl": 75,
+        "MaxLvl": 100,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Shard",
+                    "Quantity": 3
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Lodestone Brick",
+        "Lvlcrafting": 100,
+        "Exp": 1539,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Lodestone",
+                    "Quantity": 6
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Stone Brick",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Coarse Sandpaper",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Amber",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Amber",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Amethyst",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Amethyst",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Aquamarine",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Aquamarine",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Water Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Carnelian",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Carnelian",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Diamond",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Diamond",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Emerald",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Emerald",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Jasper",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Jasper",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Malachite",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Malachite",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Moonstone",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Moonstone",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Onyx",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Onyx",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Opal",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Opal",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Ruby",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Ruby",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Sapphire",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Sapphire",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brilliant Topaz",
+        "Lvlcrafting": 100,
+        "Exp": 7588,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Topaz",
+                    "Quantity": 4
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Essence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Amber",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Amber",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Amethyst",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Amethyst",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Aquamarine",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Aquamarine",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Water Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Carnelian",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Carnelian",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Diamond",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Diamond",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Emerald",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Emerald",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Jasper",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Jasper",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Malachite",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Malachite",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Moonstone",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Moonstone",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Onyx",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Onyx",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Opal",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Opal",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Ruby",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Ruby",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Sapphire",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Sapphire",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Brilliant Topaz",
+        "Lvlcrafting": 100,
+        "Exp": 5420,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Topaz",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Essence",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Corrupted Lodestone",
+        "Lvlcrafting": 100,
+        "Exp": 18,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Cyrstal",
+                    "Quantity": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Genesis Core",
+        "Lvlcrafting": 100,
+        "Exp": 108,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Elemental Heart",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Eternal Heart",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Corrupted Rune",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Molten Rune",
+                    "Quantity": 3
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Genesis Tuning Orb",
+        "Lvlcrafting": 100,
+        "Exp": 153,
+        "MinLvl": 100,
+        "MaxLvl": 150,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Lodestone",
+                    "Quantity": 10
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Asmodeum Chisel",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Runestone",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Genesis Core",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Amber",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Amber",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Amethyst",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Amethyst",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Aquamarine",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Aquamarine",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Water Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Carnelian",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Carnelian",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Diamond",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Diamond",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Emerald",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Emerald",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Jasper",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Jasper",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Malachite",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Malachite",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Moonstone",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Moonstone",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Onyx",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Onyx",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Opal",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Opal",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Ruby",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Ruby",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Sapphire",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Sapphire",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pristine Topaz",
+        "Lvlcrafting": 150,
+        "Exp": 41256,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Brilliant Topaz",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Quintessence",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Amber",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Amber",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Amethyst",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Amethyst",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Aquamarine",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Aquamarine",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Water Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Carnelian",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Carnelian",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Diamond",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Diamond",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Emerald",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Emerald",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Jasper",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Jasper",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Malachite",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Malachite",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Moonstone",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Moonstone",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Onyx",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Onyx",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Opal",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Opal",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Ruby",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Ruby",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Fire Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Sapphire",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Sapphire",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Death Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cut Pristine Topaz",
+        "Lvlcrafting": 150,
+        "Exp": 30942,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Pristine Topaz",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Air Quintessence",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Weak Solvent",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Obsidian Voidstone",
+        "Lvlcrafting": 150,
+        "Exp": 9240,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Lodestone Brick",
+                    "Quantity": 8
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Lodestone",
+                    "Quantity": 2
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Coarse Sandpaper",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Loamy Lodestone",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Undying Heart",
+        "Lvlcrafting": 150,
+        "Exp": 360,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Death Quintessence",
+                    "Quantity": 10
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Life Quintessence",
+                    "Quantity": 10
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Soul Quintessence",
+                    "Quantity": 10
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Blight Seeds",
+                    "Quantity": 10
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Lazarus Core",
+        "Lvlcrafting": 150,
+        "Exp": 72,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Elemental Heart",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Undying Heart",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Glowing Spore",
+                    "Quantity": 3
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Earth Totem",
+                    "Quantity": 3
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Lazarus Tuning Orb",
+        "Lvlcrafting": 150,
+        "Exp": 288,
+        "MinLvl": 150,
+        "MaxLvl": 200,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Corrupted Lodestone",
+                    "Quantity": 20
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Asmodeum Chisel",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Runestone",
+                    "Quantity": 10
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Lazarus Core",
+                    "Quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Runestone",
+        "Lvlcrafting": 200,
+        "Exp": 5390,
+        "MinLvl": 0,
+        "MaxLvl": 0,
+        "Ingredients": [
+            {
+                "Resource": {
+                    "Name": "Obsidian Voidstone",
+                    "Quantity": 5
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Obsidian Sandpaper",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Resource": {
+                    "Name": "Putrid Lodestone",
+                    "Quantity": 1
+                }
+            }
+        ]
+    }
+]
