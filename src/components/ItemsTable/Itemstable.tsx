@@ -1,6 +1,8 @@
+import Stack from 'react-bootstrap/Stack'
+import ListGroup from 'react-bootstrap/ListGroup'
+import Badge from 'react-bootstrap/Badge'
+import "./Itemstable.scss";
 
-import Accordion from 'react-bootstrap/Accordion'
-import Figure from 'react-bootstrap/Figure'
 interface Props {
   Name: string;
   ItemsURL: string;
@@ -8,47 +10,36 @@ interface Props {
 
 export const  ItemsTable = (props: Props) => {
   
-
-  
   const ItemToCraftJSON =   require(`../../data/json/${props.ItemsURL}`);
-    
+ 
     const DisplayData=ItemToCraftJSON.map(
       (item:any, index:any)=>{
+
           return(
               
-              <Accordion.Item eventKey={index}>
-                <Accordion.Header>{item.Name}</Accordion.Header>
-                <Accordion.Body>
-                  <Figure>
-                  <Figure.Image
-                    width={250}
-                    height={250}
-                    alt={item.Name}
-                    src=""
-                  />
-                  Экспа: {item.Exp}
-                  
-                </Figure>
-                </Accordion.Body>
-              </Accordion.Item>
+              <ListGroup.Item action>
+                {item.Name}  <Badge >Lvl: {item.Lvlcrafting}</Badge> 
+              </ListGroup.Item>
           )
       }
   ) 
   
-  
+ 
   
  
   
   
 
     return (
-      
-
-
-      <Accordion>
-         { props.Name}
-          {DisplayData}
-          </Accordion>
+      <Stack direction="horizontal" gap={3} className='main'>
+        <div className='table_of_items'>
+          <ListGroup>
+            {DisplayData}
+          </ListGroup>
+        </div>
+        <div>item overview</div>
+        <div>Leveling</div>
+      </Stack> 
       );
 
       

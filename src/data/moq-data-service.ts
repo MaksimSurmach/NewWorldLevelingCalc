@@ -62,4 +62,7 @@ export class MoqDataService{
     getById(id: string) {
         return this.listTradingSkills().find(x => x.Id === id);
     }
+    getMeAll(){
+        return this.listTradingSkills();
+    }
 }

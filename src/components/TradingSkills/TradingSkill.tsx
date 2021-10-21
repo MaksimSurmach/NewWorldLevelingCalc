@@ -13,7 +13,7 @@ export const TradingSkillComponent = () => {
   const param = useParams<{ id: string }>()
 
   const item = data.getById(param.id);
-  console.log(typeof item?.Name);
+
   return (
     <div className="TradingSkill">
        <ItemsTable Name={item?.Name!} ItemsURL={item?.CraftItems!}/>

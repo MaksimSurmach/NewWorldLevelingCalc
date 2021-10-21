@@ -1,12 +1,41 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
+
+import { MoqDataService } from '../../data/moq-data-service';
+import { Container as di } from 'typedi';
+import { LinkContainer } from 'react-router-bootstrap';
 
 class Home extends React.Component{
 
+  
+  
+
   render() {
+    const moq = di.get(MoqDataService);
+    const data =  moq.getMeAll();
     return (
-        <div>
-            This os our Home
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      
+        <div className="body">
+          
+          <Row xs={1} md={4} className="g-4">
+          {data.map((item, index) => (
+            <Col>
+            <LinkContainer to={'/skills/'+ item.Id}>
+              <Card bg="dark"  text="white" >
+                <Card.Img variant="top" src={item?.Image} />
+                <Card.Body>
+                  <Card.Title>{item?.Name}</Card.Title>
+                  
+                </Card.Body>
+              </Card>
+              </LinkContainer>
+            </Col>
+          ))}  
+              
+        </Row>
         </div>
     );
   }
