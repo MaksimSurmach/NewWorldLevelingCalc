@@ -15,7 +15,7 @@ class Home extends React.Component{
 
   render() {
     const moq = di.get(MoqDataService);
-    const data =  moq.getMeAll();
+    const data =  moq.listTradingSkills();
     return (
       
         <div className="body">

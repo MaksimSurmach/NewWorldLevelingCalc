@@ -12,57 +12,56 @@ import weaponsmithingImage from "../data/img/TradeSkillsIcon/weaponsmithing_trad
 @Service()
 export class MoqDataService{
 
+    tradingSkills = [{
+        Id: "arcana",
+        Name: "Arcana",
+        Image: arcanaImage,
+        CraftItems: "Arcana.json",
+        Leveling: "tradeskillarcana.json"
+    }, {
+        Id: "armor",
+        Name: "Armor",
+        Image: armorImage,
+        CraftItems: "Armor.json",
+        Leveling: "tradeskillarmoring.json"
+    }, {
+        Id: "cooking",
+        Name: "Cooking",
+        Image: cookingImage,
+        CraftItems: "Cooking.json",
+        Leveling: "tradeskillcooking.json"
+    }, {
+        Id: "engineering",
+        Name: "Engineering",
+        Image: engineeringImage,
+        CraftItems: "Engineering.json",
+        Leveling: "tradeskillengineering.json"
+    }, {
+        Id: "furnishing",
+        Name: "Furnishing",
+        Image: furnishingImage,
+        CraftItems: "Furnishing.json",
+        Leveling: "tradeskillfurnishing.json"
+    }, {
+        Id: "jewelcrafting",
+        Name: "Jewelcrafting",
+        Image: jewelcraftingImage,
+        CraftItems: "Jewelcrafting.json",
+        Leveling: "tradeskilljewelcrafting.json"
+    },
+    {
+        Id: "weaponsmithing",
+        Name: "Weaponsmithing",
+        Image: weaponsmithingImage,
+        CraftItems: "Weaponsmithing.json",
+        Leveling: "tradeskillweaponsmithing.json"
+    }]
+
     listTradingSkills(){
-        return [{
-            Id: "arcana",
-            Name: "Arcana",
-            Image: arcanaImage,
-            CraftItems: "Arcana.json",
-            Leveling: "tradeskillarcana.json"
-        }, {
-            Id: "armor",
-            Name: "Armor",
-            Image: armorImage,
-            CraftItems: "Armor.json",
-            Leveling: "tradeskillarmoring.json"
-        }, {
-            Id: "cooking",
-            Name: "Cooking",
-            Image: cookingImage,
-            CraftItems: "Cooking.json",
-            Leveling: "tradeskillcooking.json"
-        }, {
-            Id: "engineering",
-            Name: "Engineering",
-            Image: engineeringImage,
-            CraftItems: "Engineering.json",
-            Leveling: "tradeskillengineering.json"
-        }, {
-            Id: "furnishing",
-            Name: "Furnishing",
-            Image: furnishingImage,
-            CraftItems: "Furnishing.json",
-            Leveling: "tradeskillfurnishing.json"
-        }, {
-            Id: "jewelcrafting",
-            Name: "Jewelcrafting",
-            Image: jewelcraftingImage,
-            CraftItems: "Jewelcrafting.json",
-            Leveling: "tradeskilljewelcrafting.json"
-        },
-        {
-            Id: "weaponsmithing",
-            Name: "Weaponsmithing",
-            Image: weaponsmithingImage,
-            CraftItems: "Weaponsmithing.json",
-            Leveling: "tradeskillweaponsmithing.json"
-        }];
+        return this.tradingSkills;
     }
 
     getById(id: string) {
-        return this.listTradingSkills().find(x => x.Id === id);
-    }
-    getMeAll(){
-        return this.listTradingSkills();
+        return this.tradingSkills.find(x => x.Id === id);
     }
 }
