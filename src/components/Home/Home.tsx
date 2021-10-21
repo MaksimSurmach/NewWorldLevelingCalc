@@ -20,7 +20,7 @@ class Home extends React.Component{
       
         <div className="body">
           
-          <Row xs={1} md={4} className="g-4">
+          <Row xs={1} md={5} className="g-4">
           {data.map((item, index) => (
             <Col>
             <LinkContainer to={'/skills/'+ item.Id}>

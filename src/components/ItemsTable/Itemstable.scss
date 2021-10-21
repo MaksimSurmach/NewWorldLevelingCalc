@@ -25,12 +25,18 @@
         }
     }
     .table_of_items {
-        max-height: calc(100vh - 210px);
-        
+        max-height: calc(100vh - 110px);
+        width: 100%;
         
         overflow-y: scroll;
         
 
         box-sizing: content-box; /* So the width will be 100% + 17px */
+    }
+    .ItemDetail{
+        background-color: blanchedalmond;
+        width: 100%;
+        max-height: calc(100vh - 110px);
+        box-sizing: content-box;
     }
   }

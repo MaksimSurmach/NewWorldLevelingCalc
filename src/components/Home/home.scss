@@ -1,4 +1,9 @@
 .Home{
+    .body{
+        max-height: calc(100vh - 110px);
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
     
     .card{
         
