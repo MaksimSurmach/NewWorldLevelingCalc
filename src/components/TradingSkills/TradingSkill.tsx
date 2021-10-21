@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { Container as di } from 'typedi';
 import { MoqDataService } from '../../data/moq-data-service';
 import "./TradingSkill.scss";
+import { ItemsTable } from "../ItemsTable/Itemstable";
 
 export const TradingSkillComponent = () => {
 
@@ -12,19 +13,23 @@ export const TradingSkillComponent = () => {
   const param = useParams<{ id: string }>()
 
   const item = data.getById(param.id);
-
+  console.log(typeof item?.Name);
   return (
     <div className="TradingSkill">
+       <ItemsTable Name={item?.Name!} ItemsURL={item?.CraftItems!}/>
+       
       <Card>
         <Card.Body>
           <Card.Title>{item?.Name}</Card.Title>
           <Card.Img variant="bottom" src={item?.Image} />
           <Card.Text>
+          
             Some quick example text to build on the card title and make up the bulk of
             the card's content.
           </Card.Text>
         </Card.Body>
       </Card>
+     
     </div>
   );
 }
