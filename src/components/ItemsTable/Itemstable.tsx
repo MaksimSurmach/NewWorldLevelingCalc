@@ -21,9 +21,9 @@ export const  ItemsTable = (props: Props) => {
                 <Accordion.Body>
                   <Figure>
                   <Figure.Image
-                    width={171}
-                    height={180}
-                    alt="171x180"
+                    width={250}
+                    height={250}
+                    alt={item.Name}
                     src=""
                   />
                   Экспа: {item.Exp}
