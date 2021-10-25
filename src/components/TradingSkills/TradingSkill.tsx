@@ -59,15 +59,21 @@ export const TradingSkillComponent = () => {
     <React.Fragment >
     <CssBaseline></CssBaseline>
     <Grid className="TradingSkill" 
+    container
       direction="row"
-      justifyContent="space-evenly"
+      justifyContent="center"
       alignItems="stretch"
       >
-        <Stack direction="row" spacing={2}>
+        <Grid item xs>
           <ItemsTable listItems={ItemToCraftJSON} Passingback={selItemFunc}/>
+        </Grid>
+        <Grid item xs>
           <RequiredResources Ingredients={selectedItem?.Ingredients} Multiplier={Multiplier}></RequiredResources>
+        </Grid>
+        <Grid item xs>
           <LevelChoser lvl={[0,200]} Passingback={Passingback}></LevelChoser>
-        </Stack>
+        </Grid>
+        
       </Grid>
      
       </React.Fragment>

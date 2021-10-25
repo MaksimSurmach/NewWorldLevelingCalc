@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 import './App.scss';
 import Header from './components/Layout/Header';
 
@@ -29,12 +29,12 @@ function App() {
       <ThemeProvider theme={darkTheme}>
       <Router>
         <Header />
-        <Container>
+        <Box>
           <Switch>
             <Route exact path="/"><Home /></Route>
             <Route path="/skills/:id"><TradingSkillComponent></TradingSkillComponent></Route>
           </Switch>
-        </Container>
+        </Box>
         
       </Router>
       </ThemeProvider>
