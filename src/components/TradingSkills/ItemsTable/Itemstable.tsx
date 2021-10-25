@@ -1,9 +1,6 @@
-import Stack from 'react-bootstrap/Stack'
-import ListGroup from 'react-bootstrap/ListGroup'
-import Badge from 'react-bootstrap/Badge'
+
 import "./Itemstable.scss";
 import React, { useState } from 'react';
-import Card from 'react-bootstrap/Card'
 
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';

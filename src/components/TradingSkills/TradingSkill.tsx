@@ -7,8 +7,7 @@ import "./TradingSkill.scss";
 import { ItemsTable } from "./ItemsTable/Itemstable";
 
 
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+
 import { useState } from "react";
 import RequiredResources from './RequiredResources/RequiredResources'
 import { LevelChoser } from './LevelChoser/levelChoser';
@@ -65,9 +64,9 @@ export const TradingSkillComponent = () => {
       alignItems="stretch"
       >
         <Stack direction="row" spacing={2}>
-        <Col lg={4}><ItemsTable listItems={ItemToCraftJSON} Passingback={selItemFunc}/></Col>
-        <Col lg={4}><RequiredResources Ingredients={selectedItem?.Ingredients} Multiplier={Multiplier}></RequiredResources></Col>
-        <Col lg={4}><LevelChoser lvl={[0,200]} Passingback={Passingback}></LevelChoser></Col>
+          <ItemsTable listItems={ItemToCraftJSON} Passingback={selItemFunc}/>
+          <RequiredResources Ingredients={selectedItem?.Ingredients} Multiplier={Multiplier}></RequiredResources>
+          <LevelChoser lvl={[0,200]} Passingback={Passingback}></LevelChoser>
         </Stack>
       </Grid>
      

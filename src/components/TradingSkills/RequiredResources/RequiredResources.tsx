@@ -1,6 +1,6 @@
-import Stack from 'react-bootstrap/Stack'
+
 import DB from '../../../data/json/img/Resources.json'
-import Figure from 'react-bootstrap/Figure'
+
 import './reqres.scss'
 interface Props {
     Ingredients: any,
@@ -16,18 +16,16 @@ export const RequiredResources = (props:Props) =>{
   const resource = props.Ingredients?.map((item: any, index: any) => {
     const img = DB.find(x => x.Name === item.Resource.Name)
     return (
-      <Figure>
-      <Figure.Caption>
+     <div>
       {item.Resource.Name} {item.Resource.Quantity} X {props.Multiplier}
-      </Figure.Caption>
-    </Figure>
+      </div>
     );
   });
   return(
-    <Stack gap={3}>
-      
+    
+      <div>
     {resource}
-    </Stack>
+    </div>
   );
 }
 

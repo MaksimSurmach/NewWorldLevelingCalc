@@ -1,8 +1,8 @@
 import React from 'react';
-
+import Container from '@mui/material/Container';
 import './App.scss';
 import Header from './components/Layout/Header';
-import { Container } from 'react-bootstrap';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -29,7 +29,7 @@ function App() {
       <ThemeProvider theme={darkTheme}>
       <Router>
         <Header />
-        <Container fluid >
+        <Container>
           <Switch>
             <Route exact path="/"><Home /></Route>
             <Route path="/skills/:id"><TradingSkillComponent></TradingSkillComponent></Route>
