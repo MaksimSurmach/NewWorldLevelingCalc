@@ -12,11 +12,21 @@ import Home from './components/Home/Home';
 import Footer from './components/Layout/Footer';
 import { TradingSkillComponent } from './components/TradingSkills/TradingSkill';
 
+import { useTheme, ThemeProvider, createTheme } from '@mui/material/styles';
+
 
 function App() {
-  return (
-    <div className="App">
 
+  const darkTheme = createTheme({
+    palette: {
+      mode: 'dark',
+    },
+  });
+
+  return (
+    
+    <div className="App">
+      <ThemeProvider theme={darkTheme}>
       <Router>
         <Header />
         <Container fluid >
@@ -25,8 +35,9 @@ function App() {
             <Route path="/skills/:id"><TradingSkillComponent></TradingSkillComponent></Route>
           </Switch>
         </Container>
-        <Footer />
+        
       </Router>
+      </ThemeProvider>
     </div>
   );
 }
