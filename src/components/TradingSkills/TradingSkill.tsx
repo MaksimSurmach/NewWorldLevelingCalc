@@ -1,99 +1,58 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-import { Container as di } from 'typedi';
-import { MoqDataService } from '../../data/moq-data-service';
 import "./TradingSkill.scss";
-import { ItemsTable } from "./ItemsTable/Itemstable";
+import ItemsTable from "./ItemsTable/Itemstable";
 
-
-
-import { useState } from "react";
 import RequiredResources from './RequiredResources/RequiredResources'
-import { LevelChoser } from './LevelChoser/levelChoser';
-
+import LevelChoser from './LevelChoser/LevelChoser';
 
 import { CssBaseline } from "@mui/material";
 import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
 
-export const TradingSkillComponent = () => {
+import { useAppDispatch, useAppSelector } from "../../app/hooks";
+import { selectSkill } from "../../app/slice/tradingSkillSlice";
+
+
+function TradingSkillComponent() {
+
+  const tradingSkills = useAppSelector((state) => state.homeSlice.TradingSkills);
+
+  const dispatch = useAppDispatch();
+
+  const param = useParams<{ id: string }>();
+
+  const item = tradingSkills.find(x => x.Id === param.id);
+
+  if (!item) {
+    return null;
+  }
   
-  const data = di.get(MoqDataService);
-  const param = useParams<{ id: string }>()
-  const item = data.getById(param.id);
-
-  // get items table data
-  const ItemToCraftJSON = require(`../../data/json/${item?.CraftItems!}`);
-  const ExpGridJSON = require(`../../data/json/${item?.Leveling!}`);
-   //set data to itemtable
-   const [selectedItem, setselectedItem] = useState<any>()
-   
-   if (selectedItem === undefined){
-     setselectedItem(defaulatListItem);
-   }
-   const selItemFunc = (input: any):void => {
-     
-     
-     setselectedItem(input)
-   }
-
-
-
-
-
-
-
-
-
-  //LevelExp component
-   const [Multiplier, setMultiplier] = useState<number>(1)
-   
-   const Passingback = (input: any):void => {
-    console.log(input);
-    setMultiplier(input)
-   }
-
+  dispatch(selectSkill(item));
 
   return (
     <React.Fragment >
-    <CssBaseline></CssBaseline>
-    <Grid className="TradingSkill" 
-    container
-      direction="row"
-      justifyContent="center"
-      alignItems="stretch"
+      <CssBaseline></CssBaseline>
+      <Grid className="TradingSkill"
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="stretch"
       >
         <Grid item xs>
-          <ItemsTable listItems={ItemToCraftJSON} Passingback={selItemFunc}/>
+          <ItemsTable />
         </Grid>
         <Grid item xs>
-          <RequiredResources Ingredients={selectedItem?.Ingredients} Multiplier={Multiplier}></RequiredResources>
+          <RequiredResources></RequiredResources>
         </Grid>
         <Grid item xs>
-          <LevelChoser lvl={[0,200]} Passingback={Passingback}></LevelChoser>
+          <LevelChoser></LevelChoser>
         </Grid>
-        
+
       </Grid>
-     
-      </React.Fragment>
+
+    </React.Fragment>
   );
 }
 
-const defaulatListItem = [
-  {
-    "Name": "Name",
-        "Lvlcrafting": "Lvlcrafting",
-        "Exp": "exp",
-        "MinLvl": "MinLvl",
-        "MaxLvl": "MaxLvl",
-        "Ingredients": [
-            {
-                "Resource": {
-                    "Name": "NameResource",
-                    "Quantity": "QuantityResource"
-                }
-            }
-        ]
-  }
-]
+export default TradingSkillComponent;

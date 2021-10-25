@@ -9,10 +9,9 @@ import {
   Route
 } from "react-router-dom";
 import Home from './components/Home/Home';
-import Footer from './components/Layout/Footer';
-import { TradingSkillComponent } from './components/TradingSkills/TradingSkill';
+import TradingSkillComponent from './components/TradingSkills/TradingSkill';
 
-import { useTheme, ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 
 function App() {

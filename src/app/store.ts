@@ -1,10 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit'
-import craftSlice from './slice/craftSlice';
+import homeSlice from './slice/homeSlice';
+import levelChoserSlice from './slice/levelChoserSlice';
+import tradingSkillSlice from './slice/tradingSkillSlice';
 
 const store = configureStore({
-    reducer: {
-        craftSlice: craftSlice
-      }
+  reducer: {
+    tradingSkillSlice: tradingSkillSlice,
+    homeSlice: homeSlice,
+    levelChoserSlice: levelChoserSlice
+  }
 })
 
 // Infer the `RootState` and `AppDispatch` types from the store itself
