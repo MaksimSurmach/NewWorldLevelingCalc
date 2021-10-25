@@ -5,30 +5,43 @@ import "./Itemstable.scss";
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card'
 import RequiredResources from '../RequiredResources/RequiredResources'
+import { LevelChoser } from '../LevelChoser/levelChoser';
 interface Props {
   Name: string;
   ItemsURL: string;
+  LevelingURL: string;
 }
 
-export const ItemsTable = (props: Props) => {
-  const [Resource, setResource] = useState(Array);
+export const ItemsTable:React.FC<Props> = (props: Props) => {
+  const [chosenItem, setchosenItem] = useState(Array);
+
 
 
   const ItemToCraftJSON = require(`../../data/json/${props.ItemsURL}`);
 
-  function SelectItem(input: number) {
-    var result = Object.keys(ItemToCraftJSON[input].Ingredients).map((key) => {
-      return (
-        <RequiredResources Ingredients={ItemToCraftJSON[input].Ingredients[key].Resource.Name} Number={ItemToCraftJSON[input].Ingredients[key].Resource.Quantity} />
-      );
-    });
-    setResource(result);
-  }
+  // function SelectItem(input: number) {
+  //   var result = Object.keys(ItemToCraftJSON[input].Ingredients).map((key) => {
+  //     return (
+  //       <RequiredResources Ingredients={ItemToCraftJSON[input].Ingredients[key].Resource.Name} Number={ItemToCraftJSON[input].Ingredients[key].Resource.Quantity} />
+  //     );
+  //   });
+  //   setResource(result);
+  // }
+
+
+    // function SelectItem(input: object) {
+    //   console.log(input);
+      
+    //   const toExp =<LevelChoser item={input}></LevelChoser>
+    //   setchosenItem(toExp);
+    // }
+
+
   const DisplayData = ItemToCraftJSON.map(
     (item: any, index: any) => {
       return (
 
-        <ListGroup.Item key={index} action className="d-flex justify-content-between align-items-start" onClick={() => { SelectItem(index) }}>
+        <ListGroup.Item key={index} action className="d-flex justify-content-between align-items-start" onClick={() => {  }}>
 
           <div className="ms-2 me-auto">
             <div className="fw-bold">{item.Name}</div>
@@ -39,7 +52,10 @@ export const ItemsTable = (props: Props) => {
     }
   )
 
-
+  const [parentName, setParentName] = useState<string>('1')
+  const Passingback = (name: any):void => {
+    setParentName(name)
+  }
   return (
     <Stack direction="horizontal" gap={5} className='main'>
       <div className='table_of_items'>
@@ -48,14 +64,12 @@ export const ItemsTable = (props: Props) => {
         </ListGroup>
       </div>
       <div className='ItemDetail'>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-          <Card.Body>
-            <Card.Title>Name</Card.Title>
-            {Resource}
-          </Card.Body>
-
-        </Card>
+        
+       
+      </div>
+      <div style={{backgroundColor:'white'}}>
+      <LevelChoser exp={ItemToCraftJSON[0].Exp} Passingback={Passingback}></LevelChoser>
+        <div style={{color:'black'}}>{parentName}</div>
       </div>
     </Stack>
   );

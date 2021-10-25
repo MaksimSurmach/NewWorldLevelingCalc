@@ -22,7 +22,7 @@ export const TradingSkillComponent = () => {
     <Container fluid className="TradingSkill">
       <Row >
           <Col lg={8}>
-          <ItemsTable Name={item?.Name!} ItemsURL={item?.CraftItems!}/>
+          <ItemsTable Name={item?.Name!} ItemsURL={item?.CraftItems!} LevelingURL={item?.Leveling!}/>
           </Col>
         <Col lg={4}></Col>
       </Row>
