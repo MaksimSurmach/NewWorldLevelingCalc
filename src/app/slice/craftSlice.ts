@@ -16,7 +16,7 @@ export const craftSlice = createSlice({
     initialState: initialState,
     reducers: {
         selectSkill: (state, action: PayloadAction<string>) => {
-            let items = require('../data/json/'+ action.payload + '.json')
+            let items = require('../../data/json/'+ action.payload + '.json')
             state.Items = items
         },
         selectRecipe: (state, action: PayloadAction<any>) => {
