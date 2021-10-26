@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'reflect-metadata';
 
-import store from './store'
+import store from './app/store'
 import { Provider } from 'react-redux'
 
 ReactDOM.render(

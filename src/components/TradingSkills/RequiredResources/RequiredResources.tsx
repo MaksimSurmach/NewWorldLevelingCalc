@@ -1,56 +1,35 @@
-import Stack from 'react-bootstrap/Stack'
-import DB from '../../../data/json/img/Resources.json'
-import Figure from 'react-bootstrap/Figure'
+
+import { useAppSelector } from '../../../app/hooks';
+
+// import DB from '../../../data/json/img/Resources.json'
+
 import './reqres.scss'
-interface Props {
-    Ingredients: any,
-    Multiplier :number
-  }
 
 
-export const RequiredResources = (props:Props) =>{
-  //
-  console.log(props);
+export function RequiredResources() {
+
   
+  const selectedRecipe = useAppSelector((state) => state.tradingSkillSlice.SelectedRecipe);
 
-  const resource = props.Ingredients?.map((item: any, index: any) => {
-    const img = DB.find(x => x.Name === item.Resource.Name)
+  if(!selectedRecipe){
+    return null;
+  }
+  
+  const resource = selectedRecipe.Ingredients.map((item: any) => {
+    // const img = DB.find(x => x.Name === item.Resource.Name)
     return (
-      <Figure>
-      <Figure.Caption>
-      {item.Resource.Name} {item.Resource.Quantity} X {props.Multiplier}
-      </Figure.Caption>
-    </Figure>
+     <div>
+      {item.Resource.Name} {item.Resource.Quantity} X {1}
+      </div>
     );
   });
   return(
-    <Stack gap={3}>
-      
+    
+      <div>
     {resource}
-    </Stack>
+    </div>
   );
 }
 
 
 export default RequiredResources; 
-
-/*  */
-
-      // function SelectItem(input: number) {
-  //   var result = Object.keys(ItemToCraftJSON[input].Ingredients).map((key) => {
-  //     return (
-  //       <RequiredResources Ingredients={ItemToCraftJSON[input].Ingredients[key].Resource.Name} Number={ItemToCraftJSON[input].Ingredients[key].Resource.Quantity} />
-  //     );
-  //   });
-  //   setResource(result);
-  // }
-
-
-  const defaulres ={"Ingredients": [
-    {
-        "Resource": {
-            "Name": "NameResource",
-            "Quantity": "QuantityResource"
-        }
-    }
-]}
