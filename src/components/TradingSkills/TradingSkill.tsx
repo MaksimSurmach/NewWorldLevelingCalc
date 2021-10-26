@@ -5,7 +5,7 @@ import "./TradingSkill.scss";
 import RecipeList from "./RecipeList/RecipeList";
 
 import SelectedRecipe from './SelectedRecipe/SelectedRecipe'
-import LevelChoser from './LevelChoser/levelChosers';
+import LevelChoser from './LevelChoser/LevelChoser';
 
 import { CssBaseline } from "@mui/material";
 import Grid from '@mui/material/Grid';
