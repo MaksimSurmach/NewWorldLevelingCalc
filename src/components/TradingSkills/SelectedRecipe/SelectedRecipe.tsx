@@ -3,10 +3,10 @@ import { useAppSelector } from '../../../app/hooks';
 
 // import DB from '../../../data/json/img/Resources.json'
 
-import './reqres.scss'
+import './SelectedRecipe.scss'
 
 
-export function RequiredResources() {
+export function SelectedRecipe() {
 
   
   const selectedRecipe = useAppSelector((state) => state.tradingSkillSlice.SelectedRecipe);
@@ -24,7 +24,6 @@ export function RequiredResources() {
     );
   });
   return(
-    
       <div>
     {resource}
     </div>
@@ -32,4 +31,4 @@ export function RequiredResources() {
 }
 
 
-export default RequiredResources; 
+export default SelectedRecipe; 

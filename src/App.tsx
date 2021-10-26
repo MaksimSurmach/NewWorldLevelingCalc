@@ -9,7 +9,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './components/Home/Home';
-import TradingSkillComponent from './components/TradingSkills/TradingSkill';
+import TradingSkill from './components/TradingSkills/TradingSkill';
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
@@ -31,7 +31,7 @@ function App() {
         <Box>
           <Switch>
             <Route exact path="/"><Home /></Route>
-            <Route path="/skills/:id"><TradingSkillComponent></TradingSkillComponent></Route>
+            <Route path="/skills/:id"><TradingSkill></TradingSkill></Route>
           </Switch>
         </Box>
         
