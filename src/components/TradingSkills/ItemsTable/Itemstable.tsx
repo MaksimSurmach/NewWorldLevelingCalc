@@ -1,59 +1,41 @@
 
 import "./Itemstable.scss";
-import React, { useState } from 'react';
 
 import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemButton from '@mui/material/ListItemButton';
 import Avatar from '@mui/material/Avatar';
 import Chip from '@mui/material/Chip';
+import { useAppDispatch, useAppSelector } from "../../../app/hooks";
+import { selectRecipe } from "../../../app/slice/tradingSkillSlice";
 
 
-interface Props {
-  listItems: any;
-  Passingback: (arg: any) => void
-}
+function ItemsTable() {
 
-export const ItemsTable:React.FC<Props> = (props: Props) => {
-  const [chosenItem, setchosenItem] = useState<any>();
+  const recipes = useAppSelector((state) => state.tradingSkillSlice.Recipes);
+  const dispatch = useAppDispatch();
 
-    function SelectItem(input: object) {
-      props.Passingback(input)
-    }
-
-    
-
-  const DisplayData = props.listItems.map(
+  const DisplayData = recipes.map(
     (item: any, index: any) => {
       return (
 
-        <ListItemButton key={index}  className="d-flex justify-content-between align-items-start" onClick={() => { SelectItem(item) }}>
-
+        <ListItemButton key={index}  className="d-flex justify-content-between align-items-start" onClick={() => dispatch(selectRecipe(item))}>
           <ListItemAvatar>
             <Avatar>
-             
             </Avatar>
           </ListItemAvatar>
           <ListItemText primary={item.Name} secondary={item.Lvlcrafting} />
-          
-           
           <Chip label={item.Exp} />
-           
         </ListItemButton>
       )
     }
     )
 
-  
-  return (
+    return (
     <div className='table_of_items '>
     <List sx={{ width: '100%',  bgcolor: 'background.paper' }} >
-      
-       
           {DisplayData}
-        
     </List> 
     </div>  
   );
@@ -61,4 +43,4 @@ export const ItemsTable:React.FC<Props> = (props: Props) => {
 
 }
 
-// <div className='table_of_items'></div>
+export default ItemsTable;
