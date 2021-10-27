@@ -2,9 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 import "./TradingSkill.scss";
-import ItemsTable from "./ItemsTable/Itemstable";
+import RecipeList from "./RecipeList/RecipeList";
 
-import RequiredResources from './RequiredResources/RequiredResources'
+import SelectedRecipe from './SelectedRecipe/SelectedRecipe'
 import LevelChoser from './LevelChoser/LevelChoser';
 
 import { CssBaseline } from "@mui/material";
@@ -14,7 +14,7 @@ import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { selectSkill } from "../../app/slice/tradingSkillSlice";
 
 
-function TradingSkillComponent() {
+function TradingSkill() {
 
   const tradingSkills = useAppSelector((state) => state.homeSlice.TradingSkills);
 
@@ -40,10 +40,10 @@ function TradingSkillComponent() {
         alignItems="stretch"
       >
         <Grid item xs>
-          <ItemsTable />
+          <RecipeList />
         </Grid>
         <Grid item xs>
-          <RequiredResources></RequiredResources>
+          <SelectedRecipe></SelectedRecipe>
         </Grid>
         <Grid item xs>
           <LevelChoser></LevelChoser>
@@ -55,4 +55,4 @@ function TradingSkillComponent() {
   );
 }
 
-export default TradingSkillComponent;
+export default TradingSkill;

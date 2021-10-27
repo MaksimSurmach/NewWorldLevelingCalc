@@ -1,5 +1,5 @@
 
-import "./Itemstable.scss";
+import "./RecipeList.scss";
 
 import List from '@mui/material/List';
 import ListItemText from '@mui/material/ListItemText';
@@ -11,7 +11,7 @@ import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { selectRecipe } from "../../../app/slice/tradingSkillSlice";
 
 
-function ItemsTable() {
+function RecipeList() {
 
   const recipes = useAppSelector((state) => state.tradingSkillSlice.Recipes);
   const dispatch = useAppDispatch();
@@ -43,4 +43,4 @@ function ItemsTable() {
 
 }
 
-export default ItemsTable;
+export default RecipeList;
