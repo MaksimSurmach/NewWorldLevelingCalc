@@ -24,10 +24,9 @@ export const tradingSkillSlice = createSlice({
     reducers: {
         selectSkill: (state, action: PayloadAction<ITradingSkill>) => {
             state.SelectedTradingSkill = action.payload;
-            state.Recipes =  require('../../data/json/'+ action.payload.CraftItemsSrc);
+            state.Recipes =  require('../../data/json/ItemsRecipes/'+ action.payload.CraftItemsSrc);
             state.Levels =  require('../../data/json/TradeSkills/'+ action.payload.LevelingSrc);
             state.SelectedRecipe = null;
-            state.Multiplier = 1;
         },
         selectRecipe: (state, action: PayloadAction<any>) => {
             state.SelectedRecipe = action.payload

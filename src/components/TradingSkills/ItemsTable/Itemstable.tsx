@@ -1,6 +1,6 @@
 
 import "./Itemstable.scss";
-
+import React from "react";
 import List from '@mui/material/List';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
@@ -9,8 +9,6 @@ import Avatar from '@mui/material/Avatar';
 import Chip from '@mui/material/Chip';
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { selectRecipe } from "../../../app/slice/tradingSkillSlice";
-
-
 function ItemsTable() {
 
   const recipes = useAppSelector((state) => state.tradingSkillSlice.Recipes);
@@ -18,15 +16,15 @@ function ItemsTable() {
 
   const DisplayData = recipes.map(
     (item: any, index: any) => {
+    const imgUrl:string = process.env.PUBLIC_URL + "/images/CraftedItemIcon/" + item.output.id + ".png";
       return (
-
         <ListItemButton key={index}  className="d-flex justify-content-between align-items-start" onClick={() => dispatch(selectRecipe(item))}>
           <ListItemAvatar>
-            <Avatar>
+            <Avatar alt={item.output.name} src={imgUrl} variant="square">
             </Avatar>
           </ListItemAvatar>
-          <ListItemText primary={item.Name} secondary={item.Lvlcrafting} />
-          <Chip label={item.Exp} />
+          <ListItemText primary={item.output.name} secondary={<React.Fragment>qt:{item.output.quantity} Level:{item.recipeLevel}  Exp:{item.recipeExp} {imgUrl}</React.Fragment>} />
+          <Chip label={item.recipeExp} />
         </ListItemButton>
       )
     }
