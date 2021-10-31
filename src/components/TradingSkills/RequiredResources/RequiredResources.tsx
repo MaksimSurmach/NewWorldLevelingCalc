@@ -26,7 +26,7 @@ export function RequiredResources() {
   };
   
   const selectedRecipe = useAppSelector((state) => state.tradingSkillSlice.SelectedRecipe);
-
+  const dataSlicer = useAppSelector((state) => state.tradingSkillSlice);
   if(!selectedRecipe){
     return null;
   }
@@ -42,7 +42,7 @@ export function RequiredResources() {
         <ListItemIcon>
         <Avatar alt={item.name} src={imgUrl} variant="square" />
         </ListItemIcon>
-        <ListItemText primary={<React.Fragment>{item.quantity} {item.name}   X {1} </React.Fragment>} > </ListItemText>
+        <ListItemText primary={<React.Fragment>{item.quantity} {item.name}   X {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp)} </React.Fragment>} > </ListItemText>
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItemButton>
       </div>
@@ -56,7 +56,7 @@ export function RequiredResources() {
     aria-labelledby="nested-list-subheader"
     subheader={
       <ListSubheader component="div" id="nested-list-subheader">
-        Resources
+        {selectedRecipe.output.name}
       </ListSubheader>
     }
   > 

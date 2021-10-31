@@ -12,6 +12,8 @@ import { selectRecipe } from "../../../app/slice/tradingSkillSlice";
 function ItemsTable() {
 
   const recipes = useAppSelector((state) => state.tradingSkillSlice.Recipes);
+  var totalXp = useAppSelector((state) => state.tradingSkillSlice.Totalxp);
+
   const dispatch = useAppDispatch();
 
   const DisplayData = recipes.map(
@@ -24,7 +26,7 @@ function ItemsTable() {
             </Avatar>
           </ListItemAvatar>
           <ListItemText primary={item.output.name} secondary={<React.Fragment>qt:{item.output.quantity} Level:{item.recipeLevel}  Exp:{item.recipeExp} {imgUrl}</React.Fragment>} />
-          <Chip label={item.recipeExp} />
+          <Chip label={Math.round(totalXp / item.recipeExp)} />
         </ListItemButton>
       )
     }

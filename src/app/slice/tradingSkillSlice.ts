@@ -1,13 +1,36 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { AnyAction, createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { ITradingSkill } from '../../model'
 import type { RootState } from '../store'
+
+function setBoundaries(val: number) {
+    if(val > 200) {
+        return 200;
+    }
+    if(val < 0) {
+        return 0;
+    }
+    return val;
+}
+
+function calcXP(start:number, finish:number, lavelDB:any){
+    var totalXP:number = 0
+    for (start; start < finish; start++) {
+        totalXP = totalXP + lavelDB[start].InfluenceCost
+    }
+    return totalXP
+}
 
 interface TradingSkillState {
     SelectedTradingSkill: ITradingSkill | null
     Recipes: any[]
     Levels: any[]
     SelectedRecipe: any | null
-    Multiplier: number
+    Totalxp: number
+    levelChoser: {
+        Start : number,
+        Finish: number
+    },
+    CurrentItemXP: number
 }
 
 const initialState = {
@@ -15,7 +38,12 @@ const initialState = {
     Recipes: [],
     Levels: [],
     SelectedRecipe: null,
-    Multiplier: 1
+    Totalxp: 489277,
+    levelChoser: {
+        Start : 0,
+        Finish: 150
+    },
+    CurrentItemXP: 1
 } as TradingSkillState
 
 export const tradingSkillSlice = createSlice({
@@ -30,14 +58,28 @@ export const tradingSkillSlice = createSlice({
         },
         selectRecipe: (state, action: PayloadAction<any>) => {
             state.SelectedRecipe = action.payload
+            state.CurrentItemXP = action.payload.recipeExp
         },
-        selectMultiplier: (state, action: PayloadAction<number>) => {
-            state.Multiplier = action.payload
+        setStartLevel: (state, action: PayloadAction<number>) => {
+            if(action.payload > state.levelChoser.Finish){
+                state.levelChoser.Start = state.levelChoser.Finish;
+                return;
+            }
+            state.levelChoser.Start = setBoundaries(action.payload);
+            state.Totalxp = calcXP(state.levelChoser.Start,state.levelChoser.Finish, state.Levels)
+        },
+        setFinishLevel: (state, action: PayloadAction<number>) => {
+            if(action.payload < state.levelChoser.Start){
+                state.levelChoser.Finish = state.levelChoser.Start;
+                return;
+            }
+            state.levelChoser.Finish = setBoundaries(action.payload);
+            state.Totalxp = calcXP(state.levelChoser.Start,state.levelChoser.Finish, state.Levels)
         }
     }
 })
 
-export const {selectSkill, selectRecipe, selectMultiplier} = tradingSkillSlice.actions
+export const {selectSkill, selectRecipe, setStartLevel, setFinishLevel} = tradingSkillSlice.actions
 
 export const craft = (state: RootState) => state.tradingSkillSlice
 

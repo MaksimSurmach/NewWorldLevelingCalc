@@ -6,12 +6,12 @@ import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Typography from '@mui/material/Typography';
 import { useAppDispatch, useAppSelector } from '../../../app/hooks';
-import { setStartLevel, setFinishLevel } from '../../../app/slice/levelChoserSlice';
+import { setStartLevel, setFinishLevel } from '../../../app/slice/tradingSkillSlice';
 
 
 function LevelChoser() {
 
-    const levelState = useAppSelector((state) => state.levelChoserSlice);
+    const levelState = useAppSelector((state) => state.tradingSkillSlice.levelChoser);
     const dispatch = useAppDispatch();
 
     const mileStones = [0, 50, 100, 150, 200];
