@@ -31,20 +31,73 @@ export function RequiredResources() {
     return null;
   }
   
+  let viewResource = (
+    <ListItemButton>
+      <ListItemIcon>
+      <Avatar   variant="square" />
+      </ListItemIcon>
+      <ListItemText primary="item"> </ListItemText>
+    </ListItemButton>
+    )
 
   const resource = selectedRecipe.ingredients.map((item: any) => {
-    // const img = DB.find(x => x.Name === item.Resource.Name)
-    const imgUrl:string = process.env.PUBLIC_URL + "/images/Resources/" + item.subIngredients?.recipeId + ".png";
-    //const img = "../../../data/img/Resources/" + (item.ingredients?.subIngredients?.recipeId) + ".png"
-    return (
-      <div>
+    let iconName:string =item.icon
+    
+    const imgUrl:string = process.env.PUBLIC_URL + "/images/AllResources/" + iconName.toString().toLowerCase() + ".png";
+   
+    
+   
+        
+    if (item.type === "category") {
+      let id:string = item.subIngredients[1].icon
+      const imgCategoryUrl:string = process.env.PUBLIC_URL + "/images/AllResources/" + id.toString().toLowerCase() + ".png";
+      viewResource = (
+        <div>
       <ListItemButton onClick={handleClick}>
+        
         <ListItemIcon>
+        
+        <Avatar alt={item.name} src={imgCategoryUrl} variant="square" />
+        </ListItemIcon>
+        <ListItemText primary={<React.Fragment> {item.name}   X {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp)* item.quantity} </React.Fragment>} > </ListItemText>
+        {open ? <ExpandLess /> : <ExpandMore />}
+      </ListItemButton>
+      <Collapse in={open} timeout="auto" unmountOnExit>
+        {item.subIngredients.map((subitem:any)=>{
+
+
+          return(
+            
+            <List component="div" disablePadding>
+              <ListItemButton sx={{ pl: 4 }}>
+                <ListItemIcon>
+                <Avatar alt={item.name} src={process.env.PUBLIC_URL + "/images/AllResources/" + subitem.icon.toString().toLowerCase() + ".png"} variant="square" />
+                </ListItemIcon>
+                <ListItemText primary={<React.Fragment> {subitem.name}   X {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp) * subitem.quantity} </React.Fragment>} />
+              </ListItemButton>
+            </List>
+            
+          )
+        })}
+           
+      </Collapse>
+      </div>
+      )
+      }
+      else if (item.type === "item") {
+        viewResource = (
+          <ListItemButton>
+       <ListItemIcon>
         <Avatar alt={item.name} src={imgUrl} variant="square" />
         </ListItemIcon>
         <ListItemText primary={<React.Fragment>{item.quantity} {item.name}   X {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp)} </React.Fragment>} > </ListItemText>
-        {open ? <ExpandLess /> : <ExpandMore />}
       </ListItemButton>
+        )
+      }
+    
+    return (
+      <div>
+        {viewResource}
       </div>
     );
   });
