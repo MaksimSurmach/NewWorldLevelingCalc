@@ -1,4 +1,4 @@
-import { AnyAction, createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { ITradingSkill } from '../../model'
 import type { RootState } from '../store'
 
@@ -66,7 +66,7 @@ export const tradingSkillSlice = createSlice({
                 return;
             }
             state.levelChoser.Start = setBoundaries(action.payload);
-            state.Totalxp = calcXP(state.levelChoser.Start,state.levelChoser.Finish, state.Levels)
+            state.Totalxp = calcXP(state.levelChoser.Start, state.levelChoser.Finish, state.Levels)
         },
         setFinishLevel: (state, action: PayloadAction<number>) => {
             if(action.payload < state.levelChoser.Start){
@@ -74,7 +74,7 @@ export const tradingSkillSlice = createSlice({
                 return;
             }
             state.levelChoser.Finish = setBoundaries(action.payload);
-            state.Totalxp = calcXP(state.levelChoser.Start,state.levelChoser.Finish, state.Levels)
+            state.Totalxp = calcXP(state.levelChoser.Start, state.levelChoser.Finish, state.Levels)
         }
     }
 })

@@ -91,7 +91,7 @@ function LevelChoser() {
                         Change Finish level
                     </Typography>
                     <ButtonGroup size="large" variant="contained" aria-label="outlined primary button group">
-                        {steps.map(i => (<Button key={i} onClick={() => { dispatch(setFinishLevel(levelState.Start + i)) }}>{i}</Button>))}
+                        {steps.map(i => (<Button key={i} onClick={() => { dispatch(setFinishLevel(levelState.Finish + i)) }}>{i}</Button>))}
                     </ButtonGroup>
                 </Box>
             </Stack>
