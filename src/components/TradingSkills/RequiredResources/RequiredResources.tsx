@@ -13,16 +13,49 @@ import ExpandMore from '@mui/icons-material/ExpandMore';
 import StarBorder from '@mui/icons-material/StarBorder';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import Avatar from '@mui/material/Avatar';
-// import DB from '../../../data/json/img/Resources.json'
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select, { SelectChangeEvent } from '@mui/material/Select';
+import { Box } from '@mui/material';
+import RecepieTree from './RecepieTree';
+import ListItem from '@mui/material/ListItem';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
 
 import './reqres.scss'
 
+const defaultResourceItem ={
+  "type": "item",
+  "itemType": "Resource",
+  "id": "default",
+  "name": "NAME",
+  "rarity": 0,
+  "icon": "ICON",
+  "quantity": 1,
+  "recipeId": "recipeId",
+  "gsMaxBonus": 0,
+  "gsMinBonus": 0,
+  "qtyBonus": 0
+}
+
+
 
 export function RequiredResources() {
-  const [open, setOpen] = React.useState(true);
 
-  const handleClick = () => {
-    setOpen(!open);
+  const [resPicker, setresPicker] = React.useState<any>({
+    0: defaultResourceItem,
+    1: defaultResourceItem,
+    2: defaultResourceItem,
+    3: defaultResourceItem,
+    4: defaultResourceItem
+  });
+
+  const handleClick = (event: SelectChangeEvent) => {
+    const {name, value} = event.target
+    setresPicker({
+      ...resPicker,
+      [name]: value,
+    });
   };
   
   const selectedRecipe = useAppSelector((state) => state.tradingSkillSlice.SelectedRecipe);
@@ -33,65 +66,63 @@ export function RequiredResources() {
   
   let viewResource = (
     <ListItemButton>
-      <ListItemIcon>
-      <Avatar   variant="square" />
-      </ListItemIcon>
-      <ListItemText primary="item"> </ListItemText>
+   
     </ListItemButton>
     )
 
-  const resource = selectedRecipe.ingredients.map((item: any) => {
-    let iconName:string =item.icon
+  const resource = selectedRecipe.ingredients.map((item: any,index:number) => {
     
-    const imgUrl:string = process.env.PUBLIC_URL + "/images/AllResources/" + iconName.toString().toLowerCase() + ".png";
-   
-    
-   
-        
     if (item.type === "category") {
-      let id:string = item.subIngredients[1].icon
-      const imgCategoryUrl:string = process.env.PUBLIC_URL + "/images/AllResources/" + id.toString().toLowerCase() + ".png";
+    
+  
+      let curState:number =  parseInt(index.toString(), 10);
+
       viewResource = (
         <div>
-      <ListItemButton onClick={handleClick}>
-        
-        <ListItemIcon>
-        
-        <Avatar alt={item.name} src={imgCategoryUrl} variant="square" />
-        </ListItemIcon>
-        <ListItemText primary={<React.Fragment> {item.name}   X {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp)* item.quantity} </React.Fragment>} > </ListItemText>
-        {open ? <ExpandLess /> : <ExpandMore />}
-      </ListItemButton>
-      <Collapse in={open} timeout="auto" unmountOnExit>
-        {item.subIngredients.map((subitem:any)=>{
 
-
+        <FormControl fullWidth>
+          <InputLabel>{item.name}</InputLabel>
+          <Select
+            // defaultValue={defaultResource}
+            name={index.toString()}
+            label={item.name}
+            onChange={handleClick}
+            value={resPicker[curState]}
+          >
+            
+        {item.subIngredients.map((subitem:any, index:number)=>{
+         
           return(
-            
-            <List component="div" disablePadding>
-              <ListItemButton sx={{ pl: 4 }}>
-                <ListItemIcon>
-                <Avatar alt={item.name} src={process.env.PUBLIC_URL + "/images/AllResources/" + subitem.icon.toString().toLowerCase() + ".png"} variant="square" />
-                </ListItemIcon>
-                <ListItemText primary={<React.Fragment> {subitem.name}   X {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp) * subitem.quantity} </React.Fragment>} />
-              </ListItemButton>
-            </List>
-            
+            <MenuItem  key={subitem} value={subitem} >
+                <List >
+                  <ListItem>
+                    <ListItemAvatar>
+                     <Avatar alt={item.name} src={process.env.PUBLIC_URL + "/images/AllResources/" + subitem.icon.toString().toLowerCase() + ".png"} variant="square" />
+                    </ListItemAvatar>
+                    <ListItemText primary={subitem.name} secondary={Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp) * subitem.quantity} />
+                  </ListItem>
+                </List>
+              </MenuItem>
           )
         })}
-           
-      </Collapse>
+           </Select>
+        </FormControl>
+        <RecepieTree recepieName={resPicker[curState]} qt={Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp) * item.quantity} />
       </div>
       )
       }
       else if (item.type === "item") {
+        let iconName:string =item.icon
+    
+        const imgUrl:string = process.env.PUBLIC_URL + "/images/AllResources/" + iconName.toString().toLowerCase() + ".png";
+       
         viewResource = (
-          <ListItemButton>
-       <ListItemIcon>
-        <Avatar alt={item.name} src={imgUrl} variant="square" />
-        </ListItemIcon>
-        <ListItemText primary={<React.Fragment>{item.quantity} {item.name}   X {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp)} </React.Fragment>} > </ListItemText>
-      </ListItemButton>
+          <ListItemButton key={item}>
+            <ListItemIcon>
+              <Avatar alt={item.name} src={imgUrl} variant="square" />
+              </ListItemIcon>
+            <ListItemText primary={<React.Fragment>{item.quantity} {item.name}   X {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp)} </React.Fragment>} > </ListItemText>
+          </ListItemButton>
         )
       }
     
@@ -103,18 +134,12 @@ export function RequiredResources() {
   });
   return(
     
-    <List
-    sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
-    component="nav"
-    aria-labelledby="nested-list-subheader"
-    subheader={
-      <ListSubheader component="div" id="nested-list-subheader">
-        {selectedRecipe.output.name}
-      </ListSubheader>
-    }
-  > 
+    <div>
+      <Avatar  src={process.env.PUBLIC_URL + "/images/CraftedItemIcon/" +  selectedRecipe.output.icon + ".png"} variant="square" />
+ 
+      {selectedRecipe.name}
     {resource}
-    </List>
+    </div>
   );
 }
 

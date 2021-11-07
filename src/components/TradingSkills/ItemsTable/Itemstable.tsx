@@ -9,7 +9,16 @@ import Avatar from '@mui/material/Avatar';
 import Chip from '@mui/material/Chip';
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { selectRecipe } from "../../../app/slice/tradingSkillSlice";
+
+
 function ItemsTable() {
+  const [selectedIndex, setSelectedIndex] = React.useState(1);
+  const handleListItemClick = (
+    event: React.MouseEvent<HTMLDivElement, MouseEvent>,
+    index: number,
+  ) => {
+    setSelectedIndex(index);
+  };
 
   const recipes = useAppSelector((state) => state.tradingSkillSlice.Recipes);
   var totalXp = useAppSelector((state) => state.tradingSkillSlice.Totalxp);
@@ -20,7 +29,10 @@ function ItemsTable() {
     (item: any, index: any) => {
     const imgUrl:string = process.env.PUBLIC_URL + "/images/CraftedItemIcon/" + item.output.icon + ".png";
       return (
-        <ListItemButton key={index}  className="d-flex justify-content-between align-items-start" onClick={() => dispatch(selectRecipe(item))}>
+        <ListItemButton selected={selectedIndex === index} key={index}  className="d-flex justify-content-between align-items-start" onClick={(event) =>{ 
+          handleListItemClick(event, index) 
+          dispatch(selectRecipe(item))
+          }}>
           <ListItemAvatar>
             <Avatar alt={item.output.name} src={imgUrl} variant="square">
             </Avatar>
