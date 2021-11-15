@@ -15,8 +15,11 @@ import Select, { SelectChangeEvent } from '@mui/material/Select';
 import RecepieTree from './RecepieTree';
 import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
 
-import './reqres.scss'
+import './reqres.css'
+import IconRarity from '../IconRarity/IconRarity';
 
 const defaultResourceItem ={
   "type": "item",
@@ -87,7 +90,7 @@ export function RequiredResources() {
         {item.subIngredients.map((subitem:any, index:number)=>{
          
           return(
-            <MenuItem  key={subitem} value={subitem} >
+            <MenuItem  key={subitem} value={subitem} className="chooser">
                 <List >
                   <ListItem>
                     <ListItemAvatar>
@@ -128,11 +131,24 @@ export function RequiredResources() {
   });
   return(
     
-    <div>
-      <Avatar  src={process.env.PUBLIC_URL + "/images/CraftedItemIcon/" +  selectedRecipe.output.icon + ".png"} variant="square" />
- 
-      {selectedRecipe.name}
-    {resource}
+    <div className="center">
+      <div className="itemname">
+      <Grid container alignItems="left">
+          <Grid item xs>
+            <Typography gutterBottom variant="h4" component="div">
+            {/* <IconRarity url={process.env.PUBLIC_URL + "/images/CraftedItemIcon/" +  selectedRecipe.output.icon + ".png"} rarity={selectedRecipe.output.rarity}/> */}
+            <IconRarity width="60" src={process.env.PUBLIC_URL + "/images/CraftedItemIcon/" +  selectedRecipe.output.icon + ".png"} rarity={selectedRecipe.output.rarity} />
+            {/* <Avatar  src={process.env.PUBLIC_URL + "/images/CraftedItemIcon/" +  selectedRecipe.output.icon + ".png"} variant="square" sx={{ width: 60, height: 60 }} /> */}
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography gutterBottom variant="h4" component="div">
+            {selectedRecipe.name}
+            </Typography>
+          </Grid>
+        </Grid>
+      </div>
+      {resource}
     </div>
   );
 }
