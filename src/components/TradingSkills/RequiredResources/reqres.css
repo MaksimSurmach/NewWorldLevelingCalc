@@ -1,0 +1,28 @@
+.RequiredResources {
+    .ImgRes {
+      background-color: green;
+      border-radius: 15px;
+      border-color: yellow;
+    }
+  }
+.center{
+  padding:4vh;
+}
+.itemname{
+  padding-bottom: 2vh !important;
+}
+
+.MuiListItem-root{
+  padding: 0px 0px 0px 0px !important ;
+}
+
+.MuiList-root{
+  padding-top: 0px   !important ;
+  padding-bottom: 0px   !important ;
+}
+.MuiFormControl-fullWidth{
+  padding-bottom: 1vh !important;
+}
+.MuiList-dense {
+  padding-bottom: 2vh   !important ;
+}
