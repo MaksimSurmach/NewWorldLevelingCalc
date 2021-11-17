@@ -1,13 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
 import homeSlice from './slice/homeSlice';
-import levelChoserSlice from './slice/levelChoserSlice';
 import tradingSkillSlice from './slice/tradingSkillSlice';
-
 const store = configureStore({
   reducer: {
     tradingSkillSlice: tradingSkillSlice,
-    homeSlice: homeSlice,
-    levelChoserSlice: levelChoserSlice
+    homeSlice: homeSlice
   }
 })
 

@@ -1,0 +1,19 @@
+.main-avatar-icon { 
+    position: relative !important; 
+    display: block !important;
+}
+.border-icon{
+    background:none !important;
+    position: absolute;
+    z-index: 10 !important;
+}
+.rarity-color{
+    background:none !important;
+    position: absolute;
+   
+}
+.image{
+    background: none !important;
+    position: absolute;
+    z-index: 20 !important;
+}

@@ -24,7 +24,7 @@ const initialState = {
         Id: "armor",
         Name: "Armor",
         ImageSrc: armorImage,
-        CraftItemsSrc: "Armor.json",
+        CraftItemsSrc: "Armoring.json",
         LevelingSrc: "tradeskillarmoring.json"
     }, {
         Id: "cooking",

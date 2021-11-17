@@ -5,7 +5,8 @@ import "./TradingSkill.scss";
 import ItemsTable from "./ItemsTable/Itemstable";
 
 import RequiredResources from './RequiredResources/RequiredResources'
-import LevelChoser from './LevelChoser/LevelChoser';
+import LevelChoser from '../TradingSkills/LevelChoser/levelChoser';
+
 
 import { CssBaseline } from "@mui/material";
 import Grid from '@mui/material/Grid';

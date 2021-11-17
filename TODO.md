@@ -20,3 +20,17 @@
 * джейсоны с предметами
 * UI фреймворк
 * начать что-то делать
+
+
+function UpdateQT() {
+    const item = useAppSelector((state) => state.tradingSkillSlice);
+    const levelState = useAppSelector((state) => state.levelChoserSlice);
+    var currLvl:number = levelState.Start
+    var totalXP:number = 0
+    for (currLvl; currLvl < levelState.Finish; currLvl++) {
+        totalXP = totalXP + item.Levels[currLvl].InfluenceCost
+    }
+    const dispatch = useAppDispatch();
+    dispatch(totalXP / item);    
+
+}
