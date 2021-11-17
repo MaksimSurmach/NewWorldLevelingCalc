@@ -2,7 +2,7 @@
 
 Little project for calculate amount of resource needed for lvl up crafting.
 
-## Learn More
+## Live version
 
 Live version posted on GitHub Pages [NW Craft lvl Cals]().
 
