@@ -9,7 +9,6 @@ import Avatar from '@mui/material/Avatar';
 import Chip from '@mui/material/Chip';
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { selectRecipe } from "../../../app/slice/tradingSkillSlice";
-import Divider from '@mui/material/Divider';
 
 
 function ItemsTable() {
@@ -30,7 +29,6 @@ function ItemsTable() {
     (item: any, index: any) => {
     const imgUrl:string = process.env.PUBLIC_URL + "/images/CraftedItemIcon/" + item.output.icon + ".png";
       return (
-        <div>
         <ListItemButton selected={selectedIndex === index} key={index}  className="d-flex justify-content-between align-items-start" onClick={(event) =>{ 
           handleListItemClick(event, index) 
           dispatch(selectRecipe(item))
@@ -41,10 +39,7 @@ function ItemsTable() {
           </ListItemAvatar>
           <ListItemText primary={item.output.name} secondary={<React.Fragment>qt:{item.output.quantity} Level:{item.recipeLevel}  Exp:{item.recipeExp}</React.Fragment>} />
           <Chip label={Math.round(totalXp / item.recipeExp)} />
-          
         </ListItemButton>
-        <Divider variant="inset" component="li" />
-        </div>
       )
     }
     )

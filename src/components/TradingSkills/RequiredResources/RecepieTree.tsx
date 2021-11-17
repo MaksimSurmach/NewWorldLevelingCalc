@@ -4,13 +4,12 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
-import './reqres.css'
 
 function RecepieTree(recepieName:any, qt:number) {
   
     let recepie = RecepieDB.find(o => o.id === recepieName.recepieName.id);
 
-   
+    console.log(recepieName);
     
     
     return(
