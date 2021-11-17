@@ -2,16 +2,14 @@ import RecepieDB from "../../../data/json/Resources/ResourceRecepie.json"
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import Avatar from '@mui/material/Avatar';
+import { Grid } from "@mui/material";
 import './reqres.css'
-
+import IconRarity from "../IconRarity/IconRarity";
 function RecepieTree(recepieName:any, qt:number) {
   
     let recepie = RecepieDB.find(o => o.id === recepieName.recepieName.id);
 
    
-    
     
     return(
         <List dense={true} sx={{paddingLeft: '30px', height: '50%', bgcolor: 'background.paper' }}>
@@ -23,12 +21,16 @@ function RecepieTree(recepieName:any, qt:number) {
                     imgURL = process.env.PUBLIC_URL + "/images/AllResources/" + item.icon.toString().toLowerCase() + ".png"
                 }
                 return(
-                    <ListItem>
-                    <ListItemAvatar>
-                      <Avatar alt={item.name} src={imgURL} variant="square">
-                      </Avatar>
-                    </ListItemAvatar>
-                    <ListItemText primary={item.name} secondary={item.quantity * recepieName.qt} />
+                    <ListItem key={index}>
+                    <Grid container spacing={2}>
+                        <Grid item xs={1}>
+                        <IconRarity  src={imgURL} rarity={item.rarity} />
+                        </Grid>
+
+                        <Grid item xs={6}>
+                        <ListItemText primary={item.name} secondary={item.quantity * recepieName.qt} />
+                        </Grid>
+                    </Grid>
                   </ListItem>
                 );
             })}

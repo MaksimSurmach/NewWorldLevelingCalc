@@ -1,5 +1,6 @@
 .main-avatar-icon { 
     position: relative !important; 
+    display: block !important;
 }
 .border-icon{
     background:none !important;
@@ -9,7 +10,7 @@
 .rarity-color{
     background:none !important;
     position: absolute;
-    z-index: -1 !important;
+   
 }
 .image{
     background: none !important;

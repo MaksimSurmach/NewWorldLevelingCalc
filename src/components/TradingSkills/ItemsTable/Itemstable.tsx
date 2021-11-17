@@ -5,11 +5,11 @@ import List from '@mui/material/List';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemButton from '@mui/material/ListItemButton';
-import Avatar from '@mui/material/Avatar';
 import Chip from '@mui/material/Chip';
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { selectRecipe } from "../../../app/slice/tradingSkillSlice";
 import Divider from '@mui/material/Divider';
+import IconRarity from "../IconRarity/IconRarity";
 
 
 function ItemsTable() {
@@ -30,14 +30,14 @@ function ItemsTable() {
     (item: any, index: any) => {
     const imgUrl:string = process.env.PUBLIC_URL + "/images/CraftedItemIcon/" + item.output.icon + ".png";
       return (
-        <div>
+        <div key={index}>
         <ListItemButton selected={selectedIndex === index} key={index}  className="d-flex justify-content-between align-items-start" onClick={(event) =>{ 
           handleListItemClick(event, index) 
           dispatch(selectRecipe(item))
           }}>
           <ListItemAvatar>
-            <Avatar alt={item.output.name} src={imgUrl} variant="square">
-            </Avatar>
+          <IconRarity src={imgUrl} rarity={item.output.rarity} />
+            
           </ListItemAvatar>
           <ListItemText primary={item.output.name} secondary={<React.Fragment>qt:{item.output.quantity} Level:{item.recipeLevel}  Exp:{item.recipeExp}</React.Fragment>} />
           <Chip label={Math.round(totalXp / item.recipeExp)} />

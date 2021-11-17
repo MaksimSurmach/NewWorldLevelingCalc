@@ -3,20 +3,25 @@ import './itemicon.css'
 
 
  function IconRarity(input:any) {
-     console.log(input);
-     
-    let test =""
-    const url = process.env.PUBLIC_URL + "/images/CraftedItemIcon/1hthrowingaxeimmolatedt4.png";
 
+    let Rarity;
+    if (input.rarity) {
+        Rarity = input.rarity
+    }else Rarity = 0
+   
+    let widthImg;
+    if (input.width) {
+        widthImg = input.width
+    }else widthImg = 50
 
-    const color:string = process.env.PUBLIC_URL + "/images/Backgrounds/itembgsquare" +test.toString() + ".png";
-    const bg:string = process.env.PUBLIC_URL + "/images/Backgrounds/itemraritybgsquare" + test.toString() + ".png";
+    const color:string = process.env.PUBLIC_URL + "/images/Backgrounds/itembgsquare" + Rarity.toString() + ".png";
+    const bg:string = process.env.PUBLIC_URL + "/images/Backgrounds/itemraritybgsquare" + Rarity.toString() + ".png";
    
     return(
         <div className="main-avatar-icon">
-            <img src={bg} alt="" width={test}  className="border-icon" />
-            <img src={color} alt="" width={test}  className="rarity-color" />
-            <img src={test} alt="" width={test}  className="image" />
+            <img src={bg} alt="" width={widthImg}  className="border-icon" />
+            <img src={color} alt="" width={widthImg}  className="rarity-color" />
+            <img src={input.src} alt="" width={widthImg}  className="image" />
         </div>
     );
 }

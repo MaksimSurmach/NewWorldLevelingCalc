@@ -1,6 +1,5 @@
 import React from 'react';
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
+import { Grid } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
@@ -18,12 +17,19 @@ function LevelChoser() {
     const steps = [-5, -1, 1, 5];
 
     return (
-        <Stack spacing={2}>
+        <Grid
+        container
+        direction="column"
+        justifyContent="center"
+        alignItems="center"
+        >
+            <Grid item>
             <Typography variant="h2" gutterBottom component="div" sx={{ textAlign: 'center' }} >
                 Level picker
             </Typography>
-            <Stack >
-                <Box>
+            </Grid>
+            <Grid item >
+                
                     <Typography variant="h4" gutterBottom component="div" sx={{ textAlign: 'center' }} >
                         Start level
                     </Typography>
@@ -40,27 +46,25 @@ function LevelChoser() {
                             'aria-labelledby': 'input-slider',
                         }}
                     />
-                </Box>
-                <Box>
+                
                     <Typography variant="overline" display="block" gutterBottom>
                         Set start level
                     </Typography>
                     <ButtonGroup size="large" variant="contained" aria-label="outlined primary button group">
                         {mileStones.map(i => (<Button key={i} onClick={() => { dispatch(setStartLevel(i)) }}>{i}</Button>))}
                     </ButtonGroup>
-                </Box>
+                
 
-                <Box>
                     <Typography variant="overline" display="block" gutterBottom>
                         Change start level
                     </Typography>
                     <ButtonGroup size="large" variant="contained" aria-label="outlined primary button group">
                         {steps.map(i => (<Button key={i} onClick={() => { dispatch(setStartLevel(levelState.Start + i)) }}>{i}</Button>))}
                     </ButtonGroup>
-                </Box>
-            </Stack>
-            <Stack>
-                <Box>
+               
+            </Grid>
+            <Grid item>
+                
                     <Typography variant="h4" gutterBottom component="div" sx={{ textAlign: 'center' }} >
                         Finish level
                     </Typography>
@@ -76,27 +80,24 @@ function LevelChoser() {
                             type: 'number',
                             'aria-labelledby': 'input-slider',
                         }} />
-                </Box>
-                <Box>
+                
                     <Typography variant="overline" display="block" gutterBottom>
                         Set Finish level
                     </Typography>
                     <ButtonGroup size="large" variant="contained" aria-label="outlined primary button group">
                         {mileStones.map(i => (<Button key={i} onClick={() => { dispatch(setFinishLevel(i)) }}>{i}</Button>))}
                     </ButtonGroup>
-                </Box>
-
-                <Box>
+             
                     <Typography variant="overline" display="block" gutterBottom>
                         Change Finish level
                     </Typography>
                     <ButtonGroup size="large" variant="contained" aria-label="outlined primary button group">
                         {steps.map(i => (<Button key={i} onClick={() => { dispatch(setFinishLevel(levelState.Finish + i)) }}>{i}</Button>))}
                     </ButtonGroup>
-                </Box>
-            </Stack>
+              
+            </Grid>
 
-        </Stack>
+        </Grid>
     );
 }
 

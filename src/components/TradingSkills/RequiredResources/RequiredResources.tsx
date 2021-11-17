@@ -4,20 +4,13 @@ import { useAppSelector } from '../../../app/hooks';
 
 import List from '@mui/material/List';
 import { ListItemButton } from '@mui/material';
-import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import Collapse from '@mui/material/Collapse';
-import ListSubheader from '@mui/material/ListSubheader';
-import ExpandLess from '@mui/icons-material/ExpandLess';
-import ExpandMore from '@mui/icons-material/ExpandMore';
-import StarBorder from '@mui/icons-material/StarBorder';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
+
 import Avatar from '@mui/material/Avatar';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-import { Box } from '@mui/material';
 import RecepieTree from './RecepieTree';
 import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
@@ -52,6 +45,7 @@ export function RequiredResources() {
     3: defaultResourceItem,
     4: defaultResourceItem
   });
+  
 
   const handleClick = (event: SelectChangeEvent) => {
     const {name, value} = event.target
@@ -66,6 +60,7 @@ export function RequiredResources() {
   if(!selectedRecipe){
     return null;
   }
+ 
   
   let viewResource = (
     <ListItemButton>
@@ -80,13 +75,13 @@ export function RequiredResources() {
   
       let curState:number =  parseInt(index.toString(), 10);
 
+      
       viewResource = (
-        <div>
+        <div key={index}>
 
         <FormControl fullWidth>
           <InputLabel>{item.name}</InputLabel>
           <Select
-            // defaultValue={defaultResource}
             name={index.toString()}
             label={item.name}
             onChange={handleClick}
@@ -96,10 +91,11 @@ export function RequiredResources() {
         {item.subIngredients.map((subitem:any, index:number)=>{
          
           return(
-            <MenuItem  key={subitem} value={subitem} className="chooser">
+            <MenuItem  key={index} value={subitem} className="chooser">
                 <List >
                   <ListItem>
                     <ListItemAvatar>
+                    
                      <Avatar alt={item.name} src={process.env.PUBLIC_URL + "/images/AllResources/" + subitem.icon.toString().toLowerCase() + ".png"} variant="square" />
                     </ListItemAvatar>
                     <ListItemText primary={subitem.name} secondary={Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp) * subitem.quantity} />
@@ -120,11 +116,17 @@ export function RequiredResources() {
         const imgUrl:string = process.env.PUBLIC_URL + "/images/AllResources/" + iconName.toString().toLowerCase() + ".png";
        
         viewResource = (
-          <ListItemButton key={item}>
-            <ListItemIcon>
-              <Avatar alt={item.name} src={imgUrl} variant="square" />
-              </ListItemIcon>
-            <ListItemText primary={<React.Fragment>{item.quantity} {item.name}   X {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp)} </React.Fragment>} > </ListItemText>
+          <ListItemButton key={index}>
+            <Grid container spacing={2}>
+              <Grid item xs={1}>
+                <IconRarity  src={imgUrl} rarity={item.rarity} />
+              </Grid>
+
+              <Grid item xs={6}>
+               <ListItemText primary={<React.Fragment>{Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp)*item.quantity}  ({item.quantity}){item.name}</React.Fragment>} > </ListItemText>
+              </Grid>
+
+            </Grid>
           </ListItemButton>
         )
       }
@@ -140,20 +142,19 @@ export function RequiredResources() {
     <div className="center">
       <div className="itemname">
       <Grid container alignItems="left">
-          <Grid item xs>
+          <Grid item xs={1}>
             <Typography gutterBottom variant="h4" component="div">
-            {/* <IconRarity url={process.env.PUBLIC_URL + "/images/CraftedItemIcon/" +  selectedRecipe.output.icon + ".png"} rarity={selectedRecipe.output.rarity}/> */}
-            <IconRarity width="60" src={process.env.PUBLIC_URL + "/images/CraftedItemIcon/" +  selectedRecipe.output.icon + ".png"} rarity={selectedRecipe.output.rarity} />
-            {/* <Avatar  src={process.env.PUBLIC_URL + "/images/CraftedItemIcon/" +  selectedRecipe.output.icon + ".png"} variant="square" sx={{ width: 60, height: 60 }} /> */}
+            <IconRarity src={process.env.PUBLIC_URL + "/images/CraftedItemIcon/" +  selectedRecipe.output.icon + ".png"} rarity={selectedRecipe.output.rarity} />
             </Typography>
           </Grid>
-          <Grid item>
+          <Grid item xs={10}>
             <Typography gutterBottom variant="h4" component="div">
-            {selectedRecipe.name}
+            {Math.round(dataSlicer.Totalxp / selectedRecipe.recipeExp)} {selectedRecipe.output.name}
             </Typography>
           </Grid>
         </Grid>
       </div>
+      
       {resource}
     </div>
   );
