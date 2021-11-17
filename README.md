@@ -1,6 +1,6 @@
 # New World leveling calculator
 
-Little project for calculate amount of resource needed for lvl up crafting [Create React App](https://github.com/facebook/create-react-app).
+Little project for calculate amount of resource needed for lvl up crafting.
 
 ## Learn More
 
