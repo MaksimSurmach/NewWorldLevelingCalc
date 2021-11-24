@@ -28,7 +28,7 @@ function ItemsTable() {
 
   const DisplayData = recipes.map(
     (item: any, index: any) => {
-    const imgUrl:string = process.env.PUBLIC_URL + "/images/CraftedItemIcon/" + item.output.icon + ".png";
+    const imgUrl:string = process.env.PUBLIC_URL + "/images/CraftedItemIcon/" + item.output.icon.toLowerCase() + ".png";
       return (
         <div key={index}>
         <ListItemButton selected={selectedIndex === index} key={index}  className="d-flex justify-content-between align-items-start" onClick={(event) =>{ 
