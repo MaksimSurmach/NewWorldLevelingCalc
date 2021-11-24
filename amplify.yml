@@ -3,6 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - nvm install $VERSION_NODE
         - nvm use $VERSION_NODE
         - npm ci
     build:
