@@ -4,7 +4,7 @@ Little project for calculate amount of resource needed for lvl up crafting.
 
 ## Live version
 
-Live version posted on GitHub Pages [NW Craft lvl Cals]().
+Live version posted on AWS Amplify [NW Craft lvl Calc](https://main.d2jy38d3u0mfv4.amplifyapp.com/).
 
 ## TODO
 
