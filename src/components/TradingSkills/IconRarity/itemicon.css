@@ -1,19 +1,22 @@
 .main-avatar-icon { 
     position: relative !important; 
     display: block !important;
+    z-index: 20 !important;
 }
 .border-icon{
     background:none !important;
-    position: absolute;
+    position: absolute !important;
     z-index: 10 !important;
+    display: block !important;
 }
 .rarity-color{
     background:none !important;
-    position: absolute;
-   
+    position: absolute !important;
+    display: block !important;
 }
 .image{
     background: none !important;
-    position: absolute;
-    z-index: 20 !important;
+    position: relative;
+    z-index: 33 !important;
+    display: block !important;
 }

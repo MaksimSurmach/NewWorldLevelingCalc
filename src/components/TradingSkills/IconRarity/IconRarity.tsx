@@ -19,8 +19,9 @@ import './itemicon.css'
    
     return(
         <div className="main-avatar-icon">
-            <img src={bg} alt="" width={widthImg}  className="border-icon" />
             <img src={color} alt="" width={widthImg}  className="rarity-color" />
+            <img src={bg} alt="" width={widthImg}  className="border-icon" />
+            
             <img src={input.src} alt="" width={widthImg}  className="image" />
         </div>
     );
